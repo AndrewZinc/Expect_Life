@@ -1,3 +1,4 @@
+
 # Expect life - A project about Life Expectancies and Healthcare Systems
 
 ## Project Overview
@@ -8,6 +9,7 @@ Topic: Life expectancy for nations around the world, and connections to the nati
 
 
 Questions to be answered by this project: 
+
 - Does the type of healthcare system impact life expectancy?
 - Does the amount of healthcare funding impact life expectancy?
 - Does a country's GDP impact life expectancy?
@@ -18,6 +20,7 @@ Selection Rational: There are continuing discussions in American politics about 
 
 ### Team Structure and assignments:  
 The team has made the following decisions:
+
 - AZ to serve as the project manager
 - Team members will work in pairs.  Weeks 1&2: (Jay & Vivek), (AZ & David) - these teams may change in the latter half of the project.
 - Google sheet started to collect team availability.  We expect to meet at least every other day for a short stand-up, and have the option to extend or reconvene for more discussion/working sessions.
@@ -41,6 +44,7 @@ The User Interface will be presented to the user via a web page.  The web page w
 All of these components will be hosted within Heroku.
 
 ### Deliverables:
+
 &emsp;&emsp;&emsp;&emsp; Database: PostgreSQL Database - This database engine was selected because it is available within Heroku's minimal environment. </br>
 &emsp;&emsp;&emsp;&emsp; The collected project input data will not exceed the limitations of the minimal environment. </br>
 &emsp;&emsp;&emsp;&emsp; Machine Learning Model - TBD </br>
