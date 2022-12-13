@@ -11,7 +11,8 @@ Questions to be answered by this project:
 * Does the type of social security system impact life expectancy?
 * Does the amount of healthcare funding impact life expectancy?
 * Does a country's GDP impact life expectancy?
-* How big of a role do selected lifestyle factors play?
+* How big of a role do selected lifestyle factors (for example, alcohol consumption, smoking) play in life expectancy?
+* What portion of differences in life expectancy is caused by young deaths (under 65)?
 * Other questions - TBD
 
 **Selection Rational**: There are continuing discussions in American politics about the need for changes in the national healthcare system.  Elections have seen candidates propose the adoption of Universal Healthcare or other similar large-scale changes.  This project seeks to explore whether the type of national healthcare system can affect the longevity of the population.  This will be explored with data from nations around the world.
@@ -68,5 +69,6 @@ All of these components will be hosted within Heroku.
 
 * Life Expectancy/Population: https://population.un.org/wpp/Download/Files/1_Indicators%20(Standard)/CSV_FILES/WPP2022_Demographic_Indicators_Medium.zip
 * GDP: https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?end=2021&start=1960
+* Other data: https://databank.worldbank.org/source/world-development-indicators
 
 * ISSA - The International Social Security Association (ISSA) is the world’s leading international organization for social security institutions, government departments and agencies.  The ISSA compiles international country profiles with information about the scope and breadth of each country's social security program(s).  They provided the type of system employed by each of the countries in this study, as well as the definitions of the system types.  Links to the country profiles are included within the `country_profile_urls.csv` file.
