@@ -45,7 +45,7 @@ The team has made the following decisions:
 * Database exploration: PostgreSQL database engine.
 * Machine Learning: Python & Scikit-Learn.  Maybe also Tensorflow.
 * Heroku for project hosting, includes webserver and postgres db.
-* Presentation: TBD.
+* Presentation: Interactive JavaScript Leaflet Map
 
 ### Architecture and Design
 The high-level archictecture for this project is depicted below:
@@ -62,7 +62,8 @@ All of these components will be hosted within Heroku.
 * Database: PostgreSQL Database - This database engine was selected because it is available within Heroku's minimal environment.
 * The collected project input data will not exceed the limitations of the minimal environment.
     * Machine Learning Model - TBD
-    * Presentation - TBD
+    * Presentation - Interactive Maps (sample provided below):
+    * <img width="1329" alt="Screen Shot 2022-12-12 at 8 07 01 PM" src="https://user-images.githubusercontent.com/108832056/207201154-59ead66d-f9a2-4fa8-8aa3-6d891b5f99eb.png">
 
 
 ### Data Accreditation:
