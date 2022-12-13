@@ -21,7 +21,7 @@ After reviewing the available data, we saw that there was only healthcare system
 
 This study focuses on the social security programs associated with health (Sickness and Maternity), but can include information about retirement systems, such as for North Macedonia, where the country does not indicate a separate social security system for health.
 
-### Social Security System Definitions
+#### Social Security System Definitions
 * Individual account: (may be mandatory or optional)
 * Notional defined contribution (NDC)
 * Occupational pension system:
@@ -29,6 +29,10 @@ This study focuses on the social security programs associated with health (Sickn
 * Social assistance system:
 * Social insurance system:
 * Universal system: (system components are identified separately)
+
+
+
+## Input Data
 
 
 
@@ -47,23 +51,35 @@ The team has made the following decisions:
 * Heroku for project hosting, includes webserver and postgres db.
 * Presentation: Interactive JavaScript Leaflet Map
 
-### Architecture and Design
+## Architecture and Design
 The high-level archictecture for this project is depicted below:
 
 ![High-Level Architecture](./Resources/hl-architecture.png)
 
-#### Description
+#### Architecture and Design Description
 The User Interface will be presented to the user via a web page.  The web page will interact with a PostgreSQL database to request data from display on the web page.  The Machine Learning model will interact with the PostgreSQL database to collect the input data and provide results back to the database.
 
 All of these components will be hosted within Heroku.
 
-### Deliverables:
+## Deliverables:
 
+
+### Database
 * Database: PostgreSQL Database - This database engine was selected because it is available within Heroku's minimal environment.
 * The collected project input data will not exceed the limitations of the minimal environment.
-    * Machine Learning Model - TBD
-    * Presentation - Interactive Maps (sample provided below):
-    * <img width="1329" alt="Screen Shot 2022-12-12 at 8 07 01 PM" src="https://user-images.githubusercontent.com/108832056/207201154-59ead66d-f9a2-4fa8-8aa3-6d891b5f99eb.png">
+
+
+
+
+### Machine Learning Model
+* Machine Learning Model - TBD
+
+
+
+
+### Presentation
+* Presentation - Interactive Maps (sample provided below):
+* <img width="1329" alt="Screen Shot 2022-12-12 at 8 07 01 PM" src="https://user-images.githubusercontent.com/108832056/207201154-59ead66d-f9a2-4fa8-8aa3-6d891b5f99eb.png">
 
 
 ### Data Accreditation:
@@ -71,5 +87,4 @@ All of these components will be hosted within Heroku.
 * Life Expectancy/Population: https://population.un.org/wpp/Download/Files/1_Indicators%20(Standard)/CSV_FILES/WPP2022_Demographic_Indicators_Medium.zip
 * GDP: https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?end=2021&start=1960
 * Other data: https://databank.worldbank.org/source/world-development-indicators
-
 * ISSA - The International Social Security Association (ISSA) is the world’s leading international organization for social security institutions, government departments and agencies.  The ISSA compiles international country profiles with information about the scope and breadth of each country's social security program(s).  They provided the type of system employed by each of the countries in this study, as well as the definitions of the system types.  Links to the country profiles are included within the `country_profile_urls.csv` file.
