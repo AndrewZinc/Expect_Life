@@ -33,6 +33,10 @@ This study focuses on the social security programs associated with health (Sickn
 
 
 ## Input Data
+Input data was sourced from multiple locations:
+* Life Expectancy data was collected from the World Bank.
+* GDP data was also collected from the World Bank.
+* Social Security system data was collected from ISSA (The International Social Security Association)
 
 
 
@@ -57,9 +61,13 @@ The high-level archictecture for this project is depicted below:
 ![High-Level Architecture](./Resources/hl-architecture.png)
 
 #### Architecture and Design Description
-The User Interface will be presented to the user via a web page.  The web page will interact with a PostgreSQL database to request data from display on the web page.  The Machine Learning model will interact with the PostgreSQL database to collect the input data and provide results back to the database.
+The User Interface/Dashboard will be presented to the user via a web page.  The web page will interact with a PostgreSQL database to request data from display on the web page.  The Machine Learning model will interact with the PostgreSQL database to collect the input data and provide results back to the database.
 
 All of these components will be hosted within Heroku.
+
+Below is a high-level diagram of the User Interface/Dashboard:
+![High-Level UI/Dashboard](./Resources/HL-presentation-diagram.png)
+
 
 ## Deliverables:
 
@@ -72,7 +80,7 @@ All of these components will be hosted within Heroku.
 
 
 ### Machine Learning Model
-* Machine Learning Model - TBD
+* Machine Learning Model - will evaluate the data features and provide information about the feature importance, as well as clustering of features that contribute to Human Longevity.
 
 
 
