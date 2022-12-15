@@ -82,11 +82,20 @@ Below is a high-level diagram of the User Interface/Dashboard:
 ## Deliverables:
 
 
-### Database
-* Database: PostgreSQL Database - This database engine was selected because it is available within Heroku's minimal environment.
-* The collected project input data will not exceed the limitations of the minimal environment.
+### Database: 
+* PostgreSQL Database - We decided to exploring other cloud database instead of setting up one with Heroku. We are currently looking into AWS Postgres, OCI Cloud Free Tier, and Google Cloud SQL For PostgreSQL. 
+* The collected project input data will not exceed the limitations of the minimal environment.  
 
+![ERD Database](./Resources/ERD.jpg)
 
+Below is a list of features we identified and will use for our analysis.
+- Age 
+- Gender
+- Population
+- GDP (USD)
+- Tobacco use
+- Alcohol use
+- Daily Protein Supply
 
 
 ### Machine Learning Model
