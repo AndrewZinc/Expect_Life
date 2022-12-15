@@ -1,14 +1,11 @@
 Country Name,Series Name,2000 [YR2000],2001 [YR2001],2002 [YR2002],2003 [YR2003],2004 [YR2004],2005 [YR2005],2006 [YR2006],2007 [YR2007],2008 [YR2008],2009 [YR2009],2010 [YR2010],2011 [YR2011],2012 [YR2012],2013 [YR2013],2014 [YR2014],2015 [YR2015],2016 [YR2016],2017 [YR2017],2018 [YR2018],2019 [YR2019]
-Afghanistan,"Total alcohol consumption per capita (liters of pure alcohol, projected estimates, 15+ years of age)",..,..,..,..,..,..,..,..,..,..,0.21,..,..,..,..,0.21,..,..,0.21,0.21
 Afghanistan,Prevalence of current tobacco use (% of adults),36.9,36.06,35.22,34.38,33.54,32.7,31.98,31.26,30.54,29.82,29.1,28.48,27.86,27.24,26.62,26,25.26666667,24.53333333,23.8,23.8
 Albania,"Total alcohol consumption per capita (liters of pure alcohol, projected estimates, 15+ years of age)",6.57,6.786,7.002,7.218,7.434,7.65,7.658,7.666,7.674,7.682,7.69,7.5,7.31,7.12,6.93,6.74,6.883333333,7.026666667,7.17,7.17
 Albania,Prevalence of current tobacco use (% of adults),35,34.26,33.52,32.78,32.04,31.3,30.64,29.98,29.32,28.66,28,27.42,26.84,26.26,25.68,25.1,24.4,23.7,23,23
 Algeria,"Total alcohol consumption per capita (liters of pure alcohol, projected estimates, 15+ years of age)",0.58,0.626,0.672,0.718,0.764,0.81,0.778,0.746,0.714,0.682,0.65,0.706,0.762,0.818,0.874,0.93,0.936666667,0.943333333,0.95,0.95
 Algeria,Prevalence of current tobacco use (% of adults),22.2,22.12,22.04,21.96,21.88,21.8,21.74,21.68,21.62,21.56,21.5,21.42,21.34,21.26,21.18,21.1,21.06666667,21.03333333,21,21
 Angola,"Total alcohol consumption per capita (liters of pure alcohol, projected estimates, 15+ years of age)",2.76,3.186,3.612,4.038,4.464,4.89,5.544,6.198,6.852,7.506,8.16,8.12,8.08,8.04,8,7.96,7.62,7.28,6.94,6.94
-Angola,Prevalence of current tobacco use (% of adults),..,#VALUE!,#VALUE!,#VALUE!,#VALUE!,..,#VALUE!,#VALUE!,#VALUE!,#VALUE!,..,#VALUE!,#VALUE!,#VALUE!,#VALUE!,..,#VALUE!,#VALUE!,..,..
 Antigua and Barbuda,"Total alcohol consumption per capita (liters of pure alcohol, projected estimates, 15+ years of age)",5.13,5.178,5.226,5.274,5.322,5.37,5.416,5.462,5.508,5.554,5.6,5.658,5.716,5.774,5.832,5.89,6.053333333,6.216666667,6.38,6.38
-Antigua and Barbuda,Prevalence of current tobacco use (% of adults),..,#VALUE!,#VALUE!,#VALUE!,#VALUE!,..,#VALUE!,#VALUE!,#VALUE!,#VALUE!,..,#VALUE!,#VALUE!,#VALUE!,#VALUE!,..,#VALUE!,#VALUE!,..,..
 Argentina,"Total alcohol consumption per capita (liters of pure alcohol, projected estimates, 15+ years of age)",8.75,8.732,8.714,8.696,8.678,8.66,8.746,8.832,8.918,9.004,9.09,9.182,9.274,9.366,9.458,9.55,9.583333333,9.616666667,9.65,9.65
 Argentina,Prevalence of current tobacco use (% of adults),34,33.5,33,32.5,32,31.5,30.98,30.46,29.94,29.42,28.9,28.44,27.98,27.52,27.06,26.6,26.03333333,25.46666667,24.9,24.9
 Armenia,"Total alcohol consumption per capita (liters of pure alcohol, projected estimates, 15+ years of age)",4.23,4.542,4.854,5.166,5.478,5.79,5.77,5.75,5.73,5.71,5.69,5.72,5.75,5.78,5.81,5.84,5.743333333,5.646666667,5.55,5.55
@@ -36,7 +33,6 @@ Belize,Prevalence of current tobacco use (% of adults),15,14.6,14.2,13.8,13.4,13
 Benin,"Total alcohol consumption per capita (liters of pure alcohol, projected estimates, 15+ years of age)",2.46,2.414,2.368,2.322,2.276,2.23,2.278,2.326,2.374,2.422,2.47,2.57,2.67,2.77,2.87,2.97,2.916666667,2.863333333,2.81,2.81
 Benin,Prevalence of current tobacco use (% of adults),16.7,16.04,15.38,14.72,14.06,13.4,12.86,12.32,11.78,11.24,10.7,10.28,9.86,9.44,9.02,8.6,8.133333333,7.666666667,7.2,7.2
 Bhutan,"Total alcohol consumption per capita (liters of pure alcohol, projected estimates, 15+ years of age)",2.77,2.536,2.302,2.068,1.834,1.6,1.464,1.328,1.192,1.056,0.92,0.82,0.72,0.62,0.52,0.42,0.423333333,0.426666667,0.43,0.43
-Bhutan,Prevalence of current tobacco use (% of adults),..,#VALUE!,#VALUE!,#VALUE!,#VALUE!,..,#VALUE!,#VALUE!,#VALUE!,#VALUE!,..,#VALUE!,#VALUE!,#VALUE!,#VALUE!,..,#VALUE!,#VALUE!,..,..
 Bolivia,"Total alcohol consumption per capita (liters of pure alcohol, projected estimates, 15+ years of age)",3.44,3.626,3.812,3.998,4.184,4.37,4.608,4.846,5.084,5.322,5.56,5.376,5.192,5.008,4.824,4.64,4.57,4.5,4.43,4.43
 Bolivia,Prevalence of current tobacco use (% of adults),32.1,30.66,29.22,27.78,26.34,24.9,23.82,22.74,21.66,20.58,19.5,18.72,17.94,17.16,16.38,15.6,14.8,14,13.2,13.2
 Bosnia and Herzegovina,"Total alcohol consumption per capita (liters of pure alcohol, projected estimates, 15+ years of age)",6.37,6.536,6.702,6.868,7.034,7.2,7.224,7.248,7.272,7.296,7.32,7.24,7.16,7.08,7,6.92,6.996666667,7.073333333,7.15,7.15
@@ -59,10 +55,8 @@ Cambodia,"Total alcohol consumption per capita (liters of pure alcohol, projecte
 Cambodia,Prevalence of current tobacco use (% of adults),42.3,41.04,39.78,38.52,37.26,36,34.82,33.64,32.46,31.28,30.1,29.12,28.14,27.16,26.18,25.2,24.1,23,21.9,21.9
 Cameroon,"Total alcohol consumption per capita (liters of pure alcohol, projected estimates, 15+ years of age)",6.69,6.876,7.062,7.248,7.434,7.62,7.782,7.944,8.106,8.268,8.43,7.978,7.526,7.074,6.622,6.17,5.996666667,5.823333333,5.65,5.65
 Cameroon,Prevalence of current tobacco use (% of adults),12.8,12.48,12.16,11.84,11.52,11.2,10.9,10.6,10.3,10,9.7,9.44,9.18,8.92,8.66,8.4,8.1,7.8,7.5,7.5
-Canada,"Total alcohol consumption per capita (liters of pure alcohol, projected estimates, 15+ years of age)",..,#VALUE!,#VALUE!,#VALUE!,#VALUE!,..,#VALUE!,#VALUE!,#VALUE!,#VALUE!,10.1,9.856,9.612,9.368,9.124,8.88,8.9,8.92,8.94,8.94
 Canada,Prevalence of current tobacco use (% of adults),28.4,27.38,26.36,25.34,24.32,23.3,22.5,21.7,20.9,20.1,19.3,18.6,17.9,17.2,16.5,15.8,15.06666667,14.33333333,13.6,13.6
 Central African Republic,"Total alcohol consumption per capita (liters of pure alcohol, projected estimates, 15+ years of age)",3.68,3.668,3.656,3.644,3.632,3.62,3.692,3.764,3.836,3.908,3.98,3.67,3.36,3.05,2.74,2.43,2.413333333,2.396666667,2.38,2.38
-Central African Republic,Prevalence of current tobacco use (% of adults),..,#VALUE!,#VALUE!,#VALUE!,#VALUE!,..,#VALUE!,#VALUE!,#VALUE!,#VALUE!,..,#VALUE!,#VALUE!,#VALUE!,#VALUE!,..,#VALUE!,#VALUE!,..,..
 Chad,"Total alcohol consumption per capita (liters of pure alcohol, projected estimates, 15+ years of age)",4.34,4.396,4.452,4.508,4.564,4.62,5.012,5.404,5.796,6.188,6.58,5.554,4.528,3.502,2.476,1.45,1.423333333,1.396666667,1.37,1.37
 Chad,Prevalence of current tobacco use (% of adults),13.9,13.56,13.22,12.88,12.54,12.2,11.9,11.6,11.3,11,10.7,10.44,10.18,9.92,9.66,9.4,9.1,8.8,8.5,8.5
 Chile,"Total alcohol consumption per capita (liters of pure alcohol, projected estimates, 15+ years of age)",7.74,7.978,8.216,8.454,8.692,8.93,9.006,9.082,9.158,9.234,9.31,9.3,9.29,9.28,9.27,9.26,9.196666667,9.133333333,9.07,9.07
@@ -92,7 +86,6 @@ Czechia,Prevalence of current tobacco use (% of adults),34.2,34.04,33.88,33.72,3
 Denmark,"Total alcohol consumption per capita (liters of pure alcohol, projected estimates, 15+ years of age)",12.67,12.594,12.518,12.442,12.366,12.29,12.032,11.774,11.516,11.258,11,10.872,10.744,10.616,10.488,10.36,10.32666667,10.29333333,10.26,10.26
 Denmark,Prevalence of current tobacco use (% of adults),37.3,36,34.7,33.4,32.1,30.8,29.74,28.68,27.62,26.56,25.5,24.62,23.74,22.86,21.98,21.1,20.1,19.1,18.1,18.1
 Djibouti,"Total alcohol consumption per capita (liters of pure alcohol, projected estimates, 15+ years of age)",1.62,1.552,1.484,1.416,1.348,1.28,1.158,1.036,0.914,0.792,0.67,0.634,0.598,0.562,0.526,0.49,0.47,0.45,0.43,0.43
-Djibouti,Prevalence of current tobacco use (% of adults),..,#VALUE!,#VALUE!,#VALUE!,#VALUE!,..,#VALUE!,#VALUE!,#VALUE!,#VALUE!,..,#VALUE!,#VALUE!,#VALUE!,#VALUE!,..,#VALUE!,#VALUE!,..,..
 Dominican Republic,"Total alcohol consumption per capita (liters of pure alcohol, projected estimates, 15+ years of age)",7.19,6.982,6.774,6.566,6.358,6.15,6.142,6.134,6.126,6.118,6.11,6.21,6.31,6.41,6.51,6.61,6.633333333,6.656666667,6.68,6.68
 Dominican Republic,Prevalence of current tobacco use (% of adults),18.7,18.18,17.66,17.14,16.62,16.1,15.66,15.22,14.78,14.34,13.9,13.56,13.22,12.88,12.54,12.2,11.76666667,11.33333333,10.9,10.9
 Ecuador,"Total alcohol consumption per capita (liters of pure alcohol, projected estimates, 15+ years of age)",5.96,5.93,5.9,5.87,5.84,5.81,5.88,5.95,6.02,6.09,6.16,5.924,5.688,5.452,5.216,4.98,4.72,4.46,4.2,4.2
@@ -102,7 +95,6 @@ Ecuador,Prevalence of current tobacco use (% of adults),18.4,17.96,17.52,17.08,1
 El Salvador,"Total alcohol consumption per capita (liters of pure alcohol, projected estimates, 15+ years of age)",3.86,3.848,3.836,3.824,3.812,3.8,3.702,3.604,3.506,3.408,3.31,3.366,3.422,3.478,3.534,3.59,3.69,3.79,3.89,3.89
 El Salvador,Prevalence of current tobacco use (% of adults),15.9,15.4,14.9,14.4,13.9,13.4,12.98,12.56,12.14,11.72,11.3,10.94,10.58,10.22,9.86,9.5,9.1,8.7,8.3,8.3
 Equatorial Guinea,"Total alcohol consumption per capita (liters of pure alcohol, projected estimates, 15+ years of age)",7.45,7.742,8.034,8.326,8.618,8.91,8.968,9.026,9.084,9.142,9.2,9.176,9.152,9.128,9.104,9.08,8.463333333,7.846666667,7.23,7.23
-Equatorial Guinea,Prevalence of current tobacco use (% of adults),..,#VALUE!,#VALUE!,#VALUE!,#VALUE!,..,#VALUE!,#VALUE!,#VALUE!,#VALUE!,..,#VALUE!,#VALUE!,#VALUE!,#VALUE!,..,#VALUE!,#VALUE!,..,..
 Eritrea,"Total alcohol consumption per capita (liters of pure alcohol, projected estimates, 15+ years of age)",1.57,1.672,1.774,1.876,1.978,2.08,1.94,1.8,1.66,1.52,1.38,1.388,1.396,1.404,1.412,1.42,1.426666667,1.433333333,1.44,1.44
 Eritrea,Prevalence of current tobacco use (% of adults),13.3,12.94,12.58,12.22,11.86,11.5,11.2,10.9,10.6,10.3,10,9.74,9.48,9.22,8.96,8.7,8.366666667,8.033333333,7.7,7.7
 Estonia,"Total alcohol consumption per capita (liters of pure alcohol, projected estimates, 15+ years of age)",9.57,10.786,12.002,13.218,14.434,15.65,14.998,14.346,13.694,13.042,12.39,12.39,12.39,12.39,12.39,12.39,11.33666667,10.28333333,9.23,9.23
@@ -117,10 +109,7 @@ Finland,"Total alcohol consumption per capita (liters of pure alcohol, projected
 Finland,Prevalence of current tobacco use (% of adults),35.7,34.84,33.98,33.12,32.26,31.4,30.68,29.96,29.24,28.52,27.8,27.14,26.48,25.82,25.16,24.5,23.73333333,22.96666667,22.2,22.2
 France,"Total alcohol consumption per capita (liters of pure alcohol, projected estimates, 15+ years of age)",14.08,13.882,13.684,13.486,13.288,13.09,12.952,12.814,12.676,12.538,12.4,12.448,12.496,12.544,12.592,12.64,12.53666667,12.43333333,12.33,12.33
 France,Prevalence of current tobacco use (% of adults),34.2,34.18,34.16,34.14,34.12,34.1,34.04,33.98,33.92,33.86,33.8,33.78,33.76,33.74,33.72,33.7,33.66666667,33.63333333,33.6,33.6
-French Polynesia,"Total alcohol consumption per capita (liters of pure alcohol, projected estimates, 15+ years of age)",..,#VALUE!,#VALUE!,#VALUE!,#VALUE!,..,#VALUE!,#VALUE!,#VALUE!,#VALUE!,..,#VALUE!,#VALUE!,#VALUE!,#VALUE!,..,#VALUE!,#VALUE!,..,..
-French Polynesia,Prevalence of current tobacco use (% of adults),..,#VALUE!,#VALUE!,#VALUE!,#VALUE!,..,#VALUE!,#VALUE!,#VALUE!,#VALUE!,..,#VALUE!,#VALUE!,#VALUE!,#VALUE!,..,#VALUE!,#VALUE!,..,..
 Gabon,"Total alcohol consumption per capita (liters of pure alcohol, projected estimates, 15+ years of age)",10.59,10.344,10.098,9.852,9.606,9.36,9.466,9.572,9.678,9.784,9.89,9.826,9.762,9.698,9.634,9.57,9.293333333,9.016666667,8.74,8.74
-Gabon,Prevalence of current tobacco use (% of adults),..,#VALUE!,#VALUE!,#VALUE!,#VALUE!,..,#VALUE!,#VALUE!,#VALUE!,#VALUE!,..,#VALUE!,#VALUE!,#VALUE!,#VALUE!,..,#VALUE!,#VALUE!,..,..
 "Gambia, The","Total alcohol consumption per capita (liters of pure alcohol, projected estimates, 15+ years of age)",4.14,4.166,4.192,4.218,4.244,4.27,4.178,4.086,3.994,3.902,3.81,3.782,3.754,3.726,3.698,3.67,3.63,3.59,3.55,3.55
 "Gambia, The",Prevalence of current tobacco use (% of adults),22.5,21.76,21.02,20.28,19.54,18.8,18.2,17.6,17,16.4,15.8,15.3,14.8,14.3,13.8,13.3,12.73333333,12.16666667,11.6,11.6
 Georgia,"Total alcohol consumption per capita (liters of pure alcohol, projected estimates, 15+ years of age)",4.41,4.806,5.202,5.598,5.994,6.39,7.046,7.702,8.358,9.014,9.67,9.658,9.646,9.634,9.622,9.61,9.156666667,8.703333333,8.25,8.25
@@ -132,11 +121,9 @@ Ghana,Prevalence of current tobacco use (% of adults),7,6.78,6.56,6.34,6.12,5.9,
 Greece,"Total alcohol consumption per capita (liters of pure alcohol, projected estimates, 15+ years of age)",10.18,10.29,10.4,10.51,10.62,10.73,10.518,10.306,10.094,9.882,9.67,9.834,9.998,10.162,10.326,10.49,10.38666667,10.28333333,10.18,10.18
 Greece,Prevalence of current tobacco use (% of adults),54.9,53.62,52.34,51.06,49.78,48.5,47.38,46.26,45.14,44.02,42.9,41.9,40.9,39.9,38.9,37.9,36.76666667,35.63333333,34.5,34.5
 Grenada,"Total alcohol consumption per capita (liters of pure alcohol, projected estimates, 15+ years of age)",9.8,9.592,9.384,9.176,8.968,8.76,8.67,8.58,8.49,8.4,8.31,8.462,8.614,8.766,8.918,9.07,9.206666667,9.343333333,9.48,9.48
-Grenada,Prevalence of current tobacco use (% of adults),..,#VALUE!,#VALUE!,#VALUE!,#VALUE!,..,#VALUE!,#VALUE!,#VALUE!,#VALUE!,..,#VALUE!,#VALUE!,#VALUE!,#VALUE!,..,#VALUE!,#VALUE!,..,..
 Guatemala,"Total alcohol consumption per capita (liters of pure alcohol, projected estimates, 15+ years of age)",4.4,4.378,4.356,4.334,4.312,4.29,4.134,3.978,3.822,3.666,3.51,3.318,3.126,2.934,2.742,2.55,2.516666667,2.483333333,2.45,2.45
 Guatemala,Prevalence of current tobacco use (% of adults),14.3,14.12,13.94,13.76,13.58,13.4,13.22,13.04,12.86,12.68,12.5,12.32,12.14,11.96,11.78,11.6,11.4,11.2,11,11
 Guinea,"Total alcohol consumption per capita (liters of pure alcohol, projected estimates, 15+ years of age)",0.67,0.69,0.71,0.73,0.75,0.77,0.756,0.742,0.728,0.714,0.7,0.774,0.848,0.922,0.996,1.07,1.083333333,1.096666667,1.11,1.11
-Guinea,Prevalence of current tobacco use (% of adults),..,#VALUE!,#VALUE!,#VALUE!,#VALUE!,..,#VALUE!,#VALUE!,#VALUE!,#VALUE!,..,#VALUE!,#VALUE!,#VALUE!,#VALUE!,..,#VALUE!,#VALUE!,..,..
 Guinea-Bissau,"Total alcohol consumption per capita (liters of pure alcohol, projected estimates, 15+ years of age)",4.15,4.382,4.614,4.846,5.078,5.31,5.142,4.974,4.806,4.638,4.47,4.586,4.702,4.818,4.934,5.05,5.16,5.27,5.38,5.38
 Guinea-Bissau,Prevalence of current tobacco use (% of adults),18,17.4,16.8,16.2,15.6,15,14.54,14.08,13.62,13.16,12.7,12.3,11.9,11.5,11.1,10.7,10.23333333,9.766666667,9.3,9.3
 Guyana,"Total alcohol consumption per capita (liters of pure alcohol, projected estimates, 15+ years of age)",8.98,8.78,8.58,8.38,8.18,7.98,7.74,7.5,7.26,7.02,6.78,6.894,7.008,7.122,7.236,7.35,7.196666667,7.043333333,6.89,6.89
@@ -144,7 +131,6 @@ Guyana,Prevalence of current tobacco use (% of adults),30.2,28.98,27.76,26.54,25
 Haiti,"Total alcohol consumption per capita (liters of pure alcohol, projected estimates, 15+ years of age)",3.97,3.948,3.926,3.904,3.882,3.86,3.686,3.512,3.338,3.164,2.99,2.93,2.87,2.81,2.75,2.69,2.703333333,2.716666667,2.73,2.73
 Haiti,Prevalence of current tobacco use (% of adults),12.3,12.02,11.74,11.46,11.18,10.9,10.66,10.42,10.18,9.94,9.7,9.48,9.26,9.04,8.82,8.6,8.366666667,8.133333333,7.9,7.9
 Honduras,"Total alcohol consumption per capita (liters of pure alcohol, projected estimates, 15+ years of age)",3.5,3.576,3.652,3.728,3.804,3.88,3.822,3.764,3.706,3.648,3.59,3.57,3.55,3.53,3.51,3.49,3.58,3.67,3.76,3.76
-Honduras,Prevalence of current tobacco use (% of adults),..,#VALUE!,#VALUE!,#VALUE!,#VALUE!,..,#VALUE!,#VALUE!,#VALUE!,#VALUE!,..,#VALUE!,#VALUE!,#VALUE!,#VALUE!,..,#VALUE!,#VALUE!,..,..
 Hungary,"Total alcohol consumption per capita (liters of pure alcohol, projected estimates, 15+ years of age)",14.27,14.328,14.386,14.444,14.502,14.56,14.066,13.572,13.078,12.584,12.09,11.992,11.894,11.796,11.698,11.6,11.51666667,11.43333333,11.35,11.35
 Hungary,Prevalence of current tobacco use (% of adults),37.4,37.1,36.8,36.5,36.2,35.9,35.64,35.38,35.12,34.86,34.6,34.32,34.04,33.76,33.48,33.2,32.86666667,32.53333333,32.2,32.2
 Iceland,"Total alcohol consumption per capita (liters of pure alcohol, projected estimates, 15+ years of age)",7.03,7.172,7.314,7.456,7.598,7.74,7.692,7.644,7.596,7.548,7.5,7.748,7.996,8.244,8.492,8.74,8.866666667,8.993333333,9.12,9.12
@@ -194,7 +180,6 @@ Lesotho,Prevalence of current tobacco use (% of adults),31.1,30.66,30.22,29.78,2
 Liberia,"Total alcohol consumption per capita (liters of pure alcohol, projected estimates, 15+ years of age)",6.38,6.314,6.248,6.182,6.116,6.05,5.914,5.778,5.642,5.506,5.37,5.436,5.502,5.568,5.634,5.7,5.84,5.98,6.12,6.12
 Liberia,Prevalence of current tobacco use (% of adults),16.3,15.76,15.22,14.68,14.14,13.6,13.18,12.76,12.34,11.92,11.5,11.12,10.74,10.36,9.98,9.6,9.2,8.8,8.4,8.4
 Libya,"Total alcohol consumption per capita (liters of pure alcohol, projected estimates, 15+ years of age)",0.064,0.0678,0.0716,0.0754,0.0792,0.083,0.086,0.089,0.092,0.095,0.098,0.0842,0.0704,0.0566,0.0428,0.029,0.025666667,0.022333333,0.019,0.019
-Libya,Prevalence of current tobacco use (% of adults),..,#VALUE!,#VALUE!,#VALUE!,#VALUE!,..,#VALUE!,#VALUE!,#VALUE!,#VALUE!,..,#VALUE!,#VALUE!,#VALUE!,#VALUE!,..,#VALUE!,#VALUE!,..,..
 Lithuania,"Total alcohol consumption per capita (liters of pure alcohol, projected estimates, 15+ years of age)",13.36,13.908,14.456,15.004,15.552,16.1,15.93,15.76,15.59,15.42,15.25,15.276,15.302,15.328,15.354,15.38,14.66,13.94,13.22,13.22
 Lithuania,Prevalence of current tobacco use (% of adults),41.4,40.9,40.4,39.9,39.4,38.9,38.4,37.9,37.4,36.9,36.4,35.92,35.44,34.96,34.48,34,33.43333333,32.86666667,32.3,32.3
 Luxembourg,"Total alcohol consumption per capita (liters of pure alcohol, projected estimates, 15+ years of age)",14.32,14.172,14.024,13.876,13.728,13.58,13.46,13.34,13.22,13.1,12.98,13.02,13.06,13.1,13.14,13.18,13.1,13.02,12.94,12.94
@@ -218,12 +203,10 @@ Mauritius,Prevalence of current tobacco use (% of adults),25.5,25.22,24.94,24.66
 Mexico,"Total alcohol consumption per capita (liters of pure alcohol, projected estimates, 15+ years of age)",6.43,6.44,6.45,6.46,6.47,6.48,6.226,5.972,5.718,5.464,5.21,5.152,5.094,5.036,4.978,4.92,4.946666667,4.973333333,5,5
 Mexico,Prevalence of current tobacco use (% of adults),24,23.32,22.64,21.96,21.28,20.6,20.02,19.44,18.86,18.28,17.7,17.2,16.7,16.2,15.7,15.2,14.6,14,13.4,13.4
 "Micronesia, Fed. Sts.","Total alcohol consumption per capita (liters of pure alcohol, projected estimates, 15+ years of age)",3.86,3.644,3.428,3.212,2.996,2.78,2.794,2.808,2.822,2.836,2.85,2.768,2.686,2.604,2.522,2.44,2.453333333,2.466666667,2.48,2.48
-"Micronesia, Fed. Sts.",Prevalence of current tobacco use (% of adults),..,#VALUE!,#VALUE!,#VALUE!,#VALUE!,..,#VALUE!,#VALUE!,#VALUE!,#VALUE!,..,#VALUE!,#VALUE!,#VALUE!,#VALUE!,..,#VALUE!,#VALUE!,..,..
 Moldova,"Total alcohol consumption per capita (liters of pure alcohol, projected estimates, 15+ years of age)",13.89,15.102,16.314,17.526,18.738,19.95,19.068,18.186,17.304,16.422,15.54,14.806,14.072,13.338,12.604,11.87,11.72333333,11.57666667,11.43,11.43
 Moldova,Prevalence of current tobacco use (% of adults),25.3,25.44,25.58,25.72,25.86,26,26.18,26.36,26.54,26.72,26.9,27.1,27.3,27.5,27.7,27.9,28.16666667,28.43333333,28.7,28.7
 Mongolia,"Total alcohol consumption per capita (liters of pure alcohol, projected estimates, 15+ years of age)",3.11,3.544,3.978,4.412,4.846,5.28,6.154,7.028,7.902,8.776,9.65,9.914,10.178,10.442,10.706,10.97,10.04333333,9.116666667,8.19,8.19
 Mongolia,Prevalence of current tobacco use (% of adults),34.1,33.86,33.62,33.38,33.14,32.9,32.64,32.38,32.12,31.86,31.6,31.4,31.2,31,30.8,30.6,30.26666667,29.93333333,29.6,29.6
-Montenegro,"Total alcohol consumption per capita (liters of pure alcohol, projected estimates, 15+ years of age)",..,#VALUE!,#VALUE!,#VALUE!,#VALUE!,..,#VALUE!,#VALUE!,#VALUE!,#VALUE!,15.07,14.24,13.41,12.58,11.75,10.92,11.10333333,11.28666667,11.47,11.47
 Montenegro,Prevalence of current tobacco use (% of adults),38.7,38.3,37.9,37.5,37.1,36.7,36.34,35.98,35.62,35.26,34.9,34.54,34.18,33.82,33.46,33.1,32.66666667,32.23333333,31.8,31.8
 Morocco,"Total alcohol consumption per capita (liters of pure alcohol, projected estimates, 15+ years of age)",1.01,1,0.99,0.98,0.97,0.96,0.948,0.936,0.924,0.912,0.9,0.86,0.82,0.78,0.74,0.7,0.696666667,0.693333333,0.69,0.69
 Morocco,Prevalence of current tobacco use (% of adults),22.5,22.02,21.54,21.06,20.58,20.1,19.7,19.3,18.9,18.5,18.1,17.72,17.34,16.96,16.58,16.2,15.76666667,15.33333333,14.9,14.9
@@ -240,13 +223,11 @@ Netherlands,Prevalence of current tobacco use (% of adults),34.3,33.56,32.82,32.
 New Zealand,"Total alcohol consumption per capita (liters of pure alcohol, projected estimates, 15+ years of age)",10.42,10.52,10.62,10.72,10.82,10.92,11,11.08,11.16,11.24,11.32,11.144,10.968,10.792,10.616,10.44,10.50333333,10.56666667,10.63,10.63
 New Zealand,Prevalence of current tobacco use (% of adults),29.6,28.54,27.48,26.42,25.36,24.3,23.46,22.62,21.78,20.94,20.1,19.38,18.66,17.94,17.22,16.5,15.73333333,14.96666667,14.2,14.2
 Nicaragua,"Total alcohol consumption per capita (liters of pure alcohol, projected estimates, 15+ years of age)",5.05,5.1,5.15,5.2,5.25,5.3,5.198,5.096,4.994,4.892,4.79,4.838,4.886,4.934,4.982,5.03,5.08,5.13,5.18,5.18
-Nicaragua,Prevalence of current tobacco use (% of adults),..,#VALUE!,#VALUE!,#VALUE!,#VALUE!,..,#VALUE!,#VALUE!,#VALUE!,#VALUE!,..,#VALUE!,#VALUE!,#VALUE!,#VALUE!,..,#VALUE!,#VALUE!,..,..
 Niger,"Total alcohol consumption per capita (liters of pure alcohol, projected estimates, 15+ years of age)",0.23,0.234,0.238,0.242,0.246,0.25,0.262,0.274,0.286,0.298,0.31,0.358,0.406,0.454,0.502,0.55,0.59,0.63,0.67,0.67
 Niger,Prevalence of current tobacco use (% of adults),9.7,9.56,9.42,9.28,9.14,9,8.88,8.76,8.64,8.52,8.4,8.3,8.2,8.1,8,7.9,7.8,7.7,7.6,7.6
 Nigeria,"Total alcohol consumption per capita (liters of pure alcohol, projected estimates, 15+ years of age)",12.5,12.502,12.504,12.506,12.508,12.51,12.352,12.194,12.036,11.878,11.72,11.538,11.356,11.174,10.992,10.81,10.82,10.83,10.84,10.84
 Nigeria,Prevalence of current tobacco use (% of adults),9.3,8.92,8.54,8.16,7.78,7.4,7.1,6.8,6.5,6.2,5.9,5.66,5.42,5.18,4.94,4.7,4.433333333,4.166666667,3.9,3.9
 North Macedonia,"Total alcohol consumption per capita (liters of pure alcohol, projected estimates, 15+ years of age)",7.31,7.254,7.198,7.142,7.086,7.03,6.81,6.59,6.37,6.15,5.93,5.93,5.93,5.93,5.93,5.93,6.006666667,6.083333333,6.16,6.16
-North Macedonia,Prevalence of current tobacco use (% of adults),..,#VALUE!,#VALUE!,#VALUE!,#VALUE!,..,#VALUE!,#VALUE!,#VALUE!,#VALUE!,..,#VALUE!,#VALUE!,#VALUE!,#VALUE!,..,#VALUE!,#VALUE!,..,..
 Norway,"Total alcohol consumption per capita (liters of pure alcohol, projected estimates, 15+ years of age)",7.95,8.134,8.318,8.502,8.686,8.87,8.884,8.898,8.912,8.926,8.94,8.656,8.372,8.088,7.804,7.52,7.483333333,7.446666667,7.41,7.41
 Norway,Prevalence of current tobacco use (% of adults),44,42.06,40.12,38.18,36.24,34.3,32.78,31.26,29.74,28.22,26.7,25.5,24.3,23.1,21.9,20.7,19.5,18.3,17.1,17.1
 Oman,"Total alcohol consumption per capita (liters of pure alcohol, projected estimates, 15+ years of age)",6.56,5.56,4.56,3.56,2.56,1.56,1.394,1.228,1.062,0.896,0.73,0.738,0.746,0.754,0.762,0.77,0.773333333,0.776666667,0.78,0.78
@@ -283,7 +264,6 @@ Saudi Arabia,"Total alcohol consumption per capita (liters of pure alcohol, proj
 Saudi Arabia,Prevalence of current tobacco use (% of adults),14.2,14.2,14.2,14.2,14.2,14.2,14.2,14.2,14.2,14.2,14.2,14.2,14.2,14.2,14.2,14.2,14.2,14.2,14.2,14.2
 Senegal,"Total alcohol consumption per capita (liters of pure alcohol, projected estimates, 15+ years of age)",0.96,0.938,0.916,0.894,0.872,0.85,0.8,0.75,0.7,0.65,0.6,0.626,0.652,0.678,0.704,0.73,0.74,0.75,0.76,0.76
 Senegal,Prevalence of current tobacco use (% of adults),14.3,13.82,13.34,12.86,12.38,11.9,11.5,11.1,10.7,10.3,9.9,9.58,9.26,8.94,8.62,8.3,7.9,7.5,7.1,7.1
-Serbia,"Total alcohol consumption per capita (liters of pure alcohol, projected estimates, 15+ years of age)",..,#VALUE!,#VALUE!,#VALUE!,#VALUE!,..,#VALUE!,#VALUE!,#VALUE!,#VALUE!,11.69,11.092,10.494,9.896,9.298,8.7,8.716666667,8.733333333,8.75,8.75
 Serbia,Prevalence of current tobacco use (% of adults),45.1,44.82,44.54,44.26,43.98,43.7,43.42,43.14,42.86,42.58,42.3,42.02,41.74,41.46,41.18,40.9,40.63333333,40.36666667,40.1,40.1
 Sierra Leone,"Total alcohol consumption per capita (liters of pure alcohol, projected estimates, 15+ years of age)",5.8,5.754,5.708,5.662,5.616,5.57,5.622,5.674,5.726,5.778,5.83,5.79,5.75,5.71,5.67,5.63,5.653333333,5.676666667,5.7,5.7
 Sierra Leone,Prevalence of current tobacco use (% of adults),43.7,41.48,39.26,37.04,34.82,32.6,30.94,29.28,27.62,25.96,24.3,23.06,21.82,20.58,19.34,18.1,16.83333333,15.56666667,14.3,14.3
@@ -296,7 +276,6 @@ Slovenia,Prevalence of current tobacco use (% of adults),25.1,24.92,24.74,24.56,
 Solomon Islands,"Total alcohol consumption per capita (liters of pure alcohol, projected estimates, 15+ years of age)",1.2,1.28,1.36,1.44,1.52,1.6,1.6,1.6,1.6,1.6,1.6,1.59,1.58,1.57,1.56,1.55,1.643333333,1.736666667,1.83,1.83
 Solomon Islands,Prevalence of current tobacco use (% of adults),43.5,43.06,42.62,42.18,41.74,41.3,40.96,40.62,40.28,39.94,39.6,39.26,38.92,38.58,38.24,37.9,37.53333333,37.16666667,36.8,36.8
 Somalia,"Total alcohol consumption per capita (liters of pure alcohol, projected estimates, 15+ years of age)",0,0.0136,0.0272,0.0408,0.0544,0.068,0.1104,0.1528,0.1952,0.2376,0.28,0.2266,0.1732,0.1198,0.0664,0.013,0.011666667,0.010333333,0.009,0.009
-Somalia,Prevalence of current tobacco use (% of adults),..,#VALUE!,#VALUE!,#VALUE!,#VALUE!,..,#VALUE!,#VALUE!,#VALUE!,#VALUE!,..,#VALUE!,#VALUE!,#VALUE!,#VALUE!,..,#VALUE!,#VALUE!,..,..
 South Africa,"Total alcohol consumption per capita (liters of pure alcohol, projected estimates, 15+ years of age)",10.02,9.932,9.844,9.756,9.668,9.58,9.672,9.764,9.856,9.948,10.04,9.954,9.868,9.782,9.696,9.61,9.58,9.55,9.52,9.52
 South Africa,Prevalence of current tobacco use (% of adults),23.5,23.3,23.1,22.9,22.7,22.5,22.32,22.14,21.96,21.78,21.6,21.48,21.36,21.24,21.12,21,20.8,20.6,20.4,20.4
 Spain,"Total alcohol consumption per capita (liters of pure alcohol, projected estimates, 15+ years of age)",12.43,12.51,12.59,12.67,12.75,12.83,12.27,11.71,11.15,10.59,10.03,10.288,10.546,10.804,11.062,11.32,11.78666667,12.25333333,12.72,12.72
@@ -304,23 +283,15 @@ Spain,Prevalence of current tobacco use (% of adults),36.8,36.3,35.8,35.3,34.8,3
 Sri Lanka,"Total alcohol consumption per capita (liters of pure alcohol, projected estimates, 15+ years of age)",2.22,2.294,2.368,2.442,2.516,2.59,2.856,3.122,3.388,3.654,3.92,3.956,3.992,4.028,4.064,4.1,4.1,4.1,4.1,4.1
 Sri Lanka,Prevalence of current tobacco use (% of adults),28.5,28.1,27.7,27.3,26.9,26.5,26.16,25.82,25.48,25.14,24.8,24.5,24.2,23.9,23.6,23.3,22.96666667,22.63333333,22.3,22.3
 St. Kitts and Nevis,"Total alcohol consumption per capita (liters of pure alcohol, projected estimates, 15+ years of age)",9.51,9.914,10.318,10.722,11.126,11.53,11.114,10.698,10.282,9.866,9.45,9.336,9.222,9.108,8.994,8.88,8.9,8.92,8.94,8.94
-St. Kitts and Nevis,Prevalence of current tobacco use (% of adults),..,#VALUE!,#VALUE!,#VALUE!,#VALUE!,..,#VALUE!,#VALUE!,#VALUE!,#VALUE!,..,#VALUE!,#VALUE!,#VALUE!,#VALUE!,..,#VALUE!,#VALUE!,..,..
 St. Lucia,"Total alcohol consumption per capita (liters of pure alcohol, projected estimates, 15+ years of age)",11.8,11.764,11.728,11.692,11.656,11.62,11.234,10.848,10.462,10.076,9.69,9.744,9.798,9.852,9.906,9.96,10.17333333,10.38666667,10.6,10.6
-St. Lucia,Prevalence of current tobacco use (% of adults),..,#VALUE!,#VALUE!,#VALUE!,#VALUE!,..,#VALUE!,#VALUE!,#VALUE!,#VALUE!,..,#VALUE!,#VALUE!,#VALUE!,#VALUE!,..,#VALUE!,#VALUE!,..,..
 St. Vincent and the Grenadines,"Total alcohol consumption per capita (liters of pure alcohol, projected estimates, 15+ years of age)",5.01,5.206,5.402,5.598,5.794,5.99,6.198,6.406,6.614,6.822,7.03,7.316,7.602,7.888,8.174,8.46,8.66,8.86,9.06,9.06
-St. Vincent and the Grenadines,Prevalence of current tobacco use (% of adults),..,#VALUE!,#VALUE!,#VALUE!,#VALUE!,..,#VALUE!,#VALUE!,#VALUE!,#VALUE!,..,#VALUE!,#VALUE!,#VALUE!,#VALUE!,..,#VALUE!,#VALUE!,..,..
-Sudan,"Total alcohol consumption per capita (liters of pure alcohol, projected estimates, 15+ years of age)",..,#VALUE!,#VALUE!,#VALUE!,#VALUE!,..,#VALUE!,#VALUE!,#VALUE!,#VALUE!,..,#VALUE!,#VALUE!,#VALUE!,#VALUE!,0.52,0.516666667,0.513333333,0.51,0.51
-Sudan,Prevalence of current tobacco use (% of adults),..,#VALUE!,#VALUE!,#VALUE!,#VALUE!,..,#VALUE!,#VALUE!,#VALUE!,#VALUE!,..,#VALUE!,#VALUE!,#VALUE!,#VALUE!,..,#VALUE!,#VALUE!,..,..
 Suriname,"Total alcohol consumption per capita (liters of pure alcohol, projected estimates, 15+ years of age)",5.29,5.314,5.338,5.362,5.386,5.41,5.572,5.734,5.896,6.058,6.22,6.138,6.056,5.974,5.892,5.81,5.65,5.49,5.33,5.33
-Suriname,Prevalence of current tobacco use (% of adults),..,#VALUE!,#VALUE!,#VALUE!,#VALUE!,..,#VALUE!,#VALUE!,#VALUE!,#VALUE!,..,#VALUE!,#VALUE!,#VALUE!,#VALUE!,..,#VALUE!,#VALUE!,..,..
 Sweden,"Total alcohol consumption per capita (liters of pure alcohol, projected estimates, 15+ years of age)",8.53,8.552,8.574,8.596,8.618,8.64,8.81,8.98,9.15,9.32,9.49,9.418,9.346,9.274,9.202,9.13,9.063333333,8.996666667,8.93,8.93
 Sweden,Prevalence of current tobacco use (% of adults),43.8,42.56,41.32,40.08,38.84,37.6,36.54,35.48,34.42,33.36,32.3,31.42,30.54,29.66,28.78,27.9,26.86666667,25.83333333,24.8,24.8
 Switzerland,"Total alcohol consumption per capita (liters of pure alcohol, projected estimates, 15+ years of age)",12.49,12.32,12.15,11.98,11.81,11.64,11.594,11.548,11.502,11.456,11.41,11.444,11.478,11.512,11.546,11.58,11.56333333,11.54666667,11.53,11.53
 Switzerland,Prevalence of current tobacco use (% of adults),28.3,28.18,28.06,27.94,27.82,27.7,27.54,27.38,27.22,27.06,26.9,26.76,26.62,26.48,26.34,26.2,26.03333333,25.86666667,25.7,25.7
 Syrian Arab Republic,"Total alcohol consumption per capita (liters of pure alcohol, projected estimates, 15+ years of age)",1.15,1.104,1.058,1.012,0.966,0.92,0.912,0.904,0.896,0.888,0.88,0.76,0.64,0.52,0.4,0.28,0.266666667,0.253333333,0.24,0.24
-Syrian Arab Republic,Prevalence of current tobacco use (% of adults),..,#VALUE!,#VALUE!,#VALUE!,#VALUE!,..,#VALUE!,#VALUE!,#VALUE!,#VALUE!,..,#VALUE!,#VALUE!,#VALUE!,#VALUE!,..,#VALUE!,#VALUE!,..,..
 Tajikistan,"Total alcohol consumption per capita (liters of pure alcohol, projected estimates, 15+ years of age)",2.97,2.878,2.786,2.694,2.602,2.51,2.488,2.466,2.444,2.422,2.4,2.542,2.684,2.826,2.968,3.11,3.166666667,3.223333333,3.28,3.28
-Tajikistan,Prevalence of current tobacco use (% of adults),..,#VALUE!,#VALUE!,#VALUE!,#VALUE!,..,#VALUE!,#VALUE!,#VALUE!,#VALUE!,..,#VALUE!,#VALUE!,#VALUE!,#VALUE!,..,#VALUE!,#VALUE!,..,..
 Tanzania,"Total alcohol consumption per capita (liters of pure alcohol, projected estimates, 15+ years of age)",8.63,8.646,8.662,8.678,8.694,8.71,8.916,9.122,9.328,9.534,9.74,10.002,10.264,10.526,10.788,11.05,11.12333333,11.19666667,11.27,11.27
 Tanzania,Prevalence of current tobacco use (% of adults),27.8,26.38,24.96,23.54,22.12,20.7,19.66,18.62,17.58,16.54,15.5,14.72,13.94,13.16,12.38,11.6,10.8,10,9.2,9.2
 Thailand,"Total alcohol consumption per capita (liters of pure alcohol, projected estimates, 15+ years of age)",6.49,6.554,6.618,6.682,6.746,6.81,6.99,7.17,7.35,7.53,7.71,7.84,7.97,8.1,8.23,8.36,8.34,8.32,8.3,8.3
@@ -332,7 +303,6 @@ Togo,Prevalence of current tobacco use (% of adults),14.4,13.9,13.4,12.9,12.4,11
 Tonga,"Total alcohol consumption per capita (liters of pure alcohol, projected estimates, 15+ years of age)",1.7,1.824,1.948,2.072,2.196,2.32,2.134,1.948,1.762,1.576,1.39,1.248,1.106,0.964,0.822,0.68,0.72,0.76,0.8,0.8
 Tonga,Prevalence of current tobacco use (% of adults),33.5,33.36,33.22,33.08,32.94,32.8,32.66,32.52,32.38,32.24,32.1,32,31.9,31.8,31.7,31.6,31.43333333,31.26666667,31.1,31.1
 Trinidad and Tobago,"Total alcohol consumption per capita (liters of pure alcohol, projected estimates, 15+ years of age)",5.27,5.45,5.63,5.81,5.99,6.17,6.178,6.186,6.194,6.202,6.21,6.344,6.478,6.612,6.746,6.88,6.826666667,6.773333333,6.72,6.72
-Trinidad and Tobago,Prevalence of current tobacco use (% of adults),..,#VALUE!,#VALUE!,#VALUE!,#VALUE!,..,#VALUE!,#VALUE!,#VALUE!,#VALUE!,..,#VALUE!,#VALUE!,#VALUE!,#VALUE!,..,#VALUE!,#VALUE!,..,..
 Tunisia,"Total alcohol consumption per capita (liters of pure alcohol, projected estimates, 15+ years of age)",1.36,1.38,1.4,1.42,1.44,1.46,1.448,1.436,1.424,1.412,1.4,1.518,1.636,1.754,1.872,1.99,2.033333333,2.076666667,2.12,2.12
 Tunisia,Prevalence of current tobacco use (% of adults),34.3,33.76,33.22,32.68,32.14,31.6,31.08,30.56,30.04,29.52,29,28.52,28.04,27.56,27.08,26.6,26.06666667,25.53333333,25,25
 Turkiye,"Total alcohol consumption per capita (liters of pure alcohol, projected estimates, 15+ years of age)",2.41,2.352,2.294,2.236,2.178,2.12,2.16,2.2,2.24,2.28,2.32,2.28,2.24,2.2,2.16,2.12,2.096666667,2.073333333,2.05,2.05
@@ -344,7 +314,6 @@ Uganda,Prevalence of current tobacco use (% of adults),24.7,23.52,22.34,21.16,19
 Ukraine,"Total alcohol consumption per capita (liters of pure alcohol, projected estimates, 15+ years of age)",12.46,12.37,12.28,12.19,12.1,12.01,12.322,12.634,12.946,13.258,13.57,12.888,12.206,11.524,10.842,10.16,9.546666667,8.933333333,8.32,8.32
 Ukraine,Prevalence of current tobacco use (% of adults),37.7,37.02,36.34,35.66,34.98,34.3,33.66,33.02,32.38,31.74,31.1,30.56,30.02,29.48,28.94,28.4,27.66666667,26.93333333,26.2,26.2
 United Arab Emirates,"Total alcohol consumption per capita (liters of pure alcohol, projected estimates, 15+ years of age)",2.58,2.792,3.004,3.216,3.428,3.64,3.542,3.444,3.346,3.248,3.15,3.278,3.406,3.534,3.662,3.79,3.826666667,3.863333333,3.9,3.9
-United Arab Emirates,Prevalence of current tobacco use (% of adults),..,#VALUE!,#VALUE!,#VALUE!,#VALUE!,..,#VALUE!,#VALUE!,#VALUE!,#VALUE!,..,#VALUE!,#VALUE!,#VALUE!,#VALUE!,..,#VALUE!,#VALUE!,..,..
 United Kingdom,"Total alcohol consumption per capita (liters of pure alcohol, projected estimates, 15+ years of age)",13.73,13.762,13.794,13.826,13.858,13.89,13.524,13.158,12.792,12.426,12.06,11.89,11.72,11.55,11.38,11.21,11.29,11.37,11.45,11.45
 United Kingdom,Prevalence of current tobacco use (% of adults),37.9,36.34,34.78,33.22,31.66,30.1,28.9,27.7,26.5,25.3,24.1,23.14,22.18,21.22,20.26,19.3,18.23333333,17.16666667,16.1,16.1
 United States,"Total alcohol consumption per capita (liters of pure alcohol, projected estimates, 15+ years of age)",9.19,9.25,9.31,9.37,9.43,9.49,9.464,9.438,9.412,9.386,9.36,9.452,9.544,9.636,9.728,9.82,9.836666667,9.853333333,9.87,9.87
@@ -356,7 +325,6 @@ Uzbekistan,Prevalence of current tobacco use (% of adults),24.9,24.46,24.02,23.5
 Vanuatu,"Total alcohol consumption per capita (liters of pure alcohol, projected estimates, 15+ years of age)",1.17,1.176,1.182,1.188,1.194,1.2,1.3,1.4,1.5,1.6,1.7,1.788,1.876,1.964,2.052,2.14,2.176666667,2.213333333,2.25,2.25
 Vanuatu,Prevalence of current tobacco use (% of adults),25.6,25.14,24.68,24.22,23.76,23.3,22.9,22.5,22.1,21.7,21.3,20.92,20.54,20.16,19.78,19.4,19,18.6,18.2,18.2
 "Venezuela, RB","Total alcohol consumption per capita (liters of pure alcohol, projected estimates, 15+ years of age)",9.15,9.204,9.258,9.312,9.366,9.42,9.27,9.12,8.97,8.82,8.67,8.3,7.93,7.56,7.19,6.82,5.926666667,5.033333333,4.14,4.14
-"Venezuela, RB",Prevalence of current tobacco use (% of adults),..,#VALUE!,#VALUE!,#VALUE!,#VALUE!,..,#VALUE!,#VALUE!,#VALUE!,#VALUE!,..,#VALUE!,#VALUE!,#VALUE!,#VALUE!,..,#VALUE!,#VALUE!,..,..
 Vietnam,"Total alcohol consumption per capita (liters of pure alcohol, projected estimates, 15+ years of age)",2.21,2.294,2.378,2.462,2.546,2.63,3.084,3.538,3.992,4.446,4.9,5.492,6.084,6.676,7.268,7.86,8.126666667,8.393333333,8.66,8.66
 Vietnam,Prevalence of current tobacco use (% of adults),29.8,29.5,29.2,28.9,28.6,28.3,28.04,27.78,27.52,27.26,27,26.8,26.6,26.4,26.2,26,25.66666667,25.33333333,25,25
 "Yemen, Rep.","Total alcohol consumption per capita (liters of pure alcohol, projected estimates, 15+ years of age)",0.79,0.7,0.61,0.52,0.43,0.34,0.308,0.276,0.244,0.212,0.18,0.155,0.13,0.105,0.08,0.055,0.053666667,0.052333333,0.051,0.051
@@ -365,8 +333,3 @@ Zambia,"Total alcohol consumption per capita (liters of pure alcohol, projected 
 Zambia,Prevalence of current tobacco use (% of adults),19.9,19.54,19.18,18.82,18.46,18.1,17.82,17.54,17.26,16.98,16.7,16.46,16.22,15.98,15.74,15.5,15.2,14.9,14.6,14.6
 Zimbabwe,"Total alcohol consumption per capita (liters of pure alcohol, projected estimates, 15+ years of age)",2.46,2.522,2.584,2.646,2.708,2.77,3.002,3.234,3.466,3.698,3.93,4.128,4.326,4.524,4.722,4.92,4.836666667,4.753333333,4.67,4.67
 Zimbabwe,Prevalence of current tobacco use (% of adults),21,20.42,19.84,19.26,18.68,18.1,17.6,17.1,16.6,16.1,15.6,15.2,14.8,14.4,14,13.6,13.1,12.6,12.1,12.1
-,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,
-Data from database: World Development Indicators,,,,,,,,,,,,,,,,,,,,,
-Last Updated: 09/16/2022,,,,,,,,,,,,,,,,,,,,,
