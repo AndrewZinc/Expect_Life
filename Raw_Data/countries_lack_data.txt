@@ -20,7 +20,7 @@ Macao SAR, China
 Marshall Islands
 Nauru
 Palau
-Saint Maarten (Dutch part)
+Sint Maarten (Dutch part)
 San Marino
 Seychelles
 South Sudan
@@ -30,4 +30,5 @@ British Virgin Islands
 Kosovo
 Virgin Islands
 West Bank
-
+Northern Mariana Islands
+St. Kitts and Nevis
