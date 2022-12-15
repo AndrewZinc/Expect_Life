@@ -1,0 +1,33 @@
+List of Countries without data:
+
+Andorra
+Ameriican Samoa
+Bermuda
+Curacao
+Cayman Islands
+Dominica
+Faroe Islands
+Gibraltar
+Greenland
+Hong Kong SAR, China
+Isle of Man
+Not classified
+St. Kitts and Nevis
+Liechtenstein
+St. Martin (French part)
+Monaco
+Macao SAR, China
+Marshall Islands
+Nauru
+Palau
+Saint Maarten (Dutch part)
+San Marino
+Seychelles
+South Sudan
+Turks and Caicos Islands
+Tuvalu
+British Virgin Islands
+Kosovo
+Virgin Islands
+West Bank
+
