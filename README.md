@@ -50,6 +50,8 @@ Additionally, there were frequent issues with the individual country names.  Thi
 
 ![Data pre-processing - reconciling country names](./Resources/data-preprocessing-reconciling-countries.png)
 
+#### Gross Domestic Product
+The resulting data file contained all of the countries that aligned with the Social Security System data.  Within this collection of countries, the following were dropped because of missing information: British Virgin Islands, Jersey, Slovakia, Taiwan (China), and Venezuela.
 
 ### Team Structure and assignments:  
 The team has made the following decisions:
