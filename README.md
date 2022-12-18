@@ -108,8 +108,12 @@ Below is a list of features we identified and will use for our analysis.
 
 ### Presentation
 * Presentation - Interactive Maps (sample provided below):
+Originally depicted life expectancy data on html page using JS Leaflet:
 * <img width="1329" alt="Screen Shot 2022-12-12 at 8 07 01 PM" src="https://user-images.githubusercontent.com/108832056/207201154-59ead66d-f9a2-4fa8-8aa3-6d891b5f99eb.png">
 
+Now began creating interactive maps in Tableau:
+<img width="1443" alt="Screen Shot 2022-12-17 at 8 31 31 PM" src="https://user-images.githubusercontent.com/108832056/208272758-dc6e6d47-a09e-4920-8e6c-02df7a8af42b.png">
+* Features "Year" slider that will allow user to adjust graphs accordingly for a year of interest between 2000-2019
 
 ### Data Accreditation:
 
