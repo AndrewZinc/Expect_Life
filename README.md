@@ -33,9 +33,25 @@ This study focuses on the social security programs associated with health (Sickn
 
 
 ## Input Data
+Input data was sourced from multiple locations:
+* Life Expectancy data was collected from the World Bank.
+* GDP data was also collected from the World Bank.
+* Social Security system data was collected from ISSA (The International Social Security Association)
+
+### Input Data Issues
+We frequently encountered data that was missing data values.  Sometimes for specific metrics in specific years, and other times for collections of metrics within one or more countries.
+
+![Data pre-processing - missing values](./Resources/data-preprocessing-missing-values.png)
 
 
+Another issue that we frequently encountered was data that included general geographic regions, in addition to listing the individual countries.  Because the primary Life Expectancy data and social security system data was oriented towards individual countries, the regional data was processed out of the input data before bringing this information into the database and machine-learning model.
 
+Additionally, there were frequent issues with the individual country names.  This was due to a number of factors, such as, accented characters within the country name, for example `Côte d'Ivoire`, and `Democratic Republic of the Congo` vs. `Congo, Democratic Republic of the`.
+
+![Data pre-processing - reconciling country names](./Resources/data-preprocessing-reconciling-countries.png)
+
+#### Gross Domestic Product
+The resulting data file contained all of the countries that aligned with the Social Security System data.  Within this collection of countries, the following were dropped because of missing information: British Virgin Islands, Jersey, Slovakia, Taiwan (China), and Venezuela.
 
 ### Team Structure and assignments:  
 The team has made the following decisions:
@@ -57,22 +73,35 @@ The high-level archictecture for this project is depicted below:
 ![High-Level Architecture](./Resources/hl-architecture.png)
 
 #### Architecture and Design Description
-The User Interface will be presented to the user via a web page.  The web page will interact with a PostgreSQL database to request data from display on the web page.  The Machine Learning model will interact with the PostgreSQL database to collect the input data and provide results back to the database.
+The User Interface/Dashboard will be presented to the user via a web page.  The web page will interact with a PostgreSQL database to request data from display on the web page.  The Machine Learning model will interact with the PostgreSQL database to collect the input data and provide results back to the database.
 
 All of these components will be hosted within Heroku.
+
+Below is a high-level diagram of the User Interface/Dashboard:
+![High-Level UI/Dashboard](./Resources/HL-presentation-diagram.png)
+
 
 ## Deliverables:
 
 
-### Database
-* Database: PostgreSQL Database - This database engine was selected because it is available within Heroku's minimal environment.
-* The collected project input data will not exceed the limitations of the minimal environment.
+### Database: 
+* PostgreSQL Database - We decided to exploring other cloud database instead of setting up one with Heroku. We are currently looking into AWS Postgres, OCI Cloud Free Tier, and Google Cloud SQL For PostgreSQL. 
+* The collected project input data will not exceed the limitations of the minimal environment.  
 
+![ERD Database](./Resources/ERD.jpg)
 
+Below is a list of features we identified and will use for our analysis.
+- Age 
+- Gender
+- Population
+- GDP (USD)
+- Tobacco use
+- Alcohol use
+- Daily Protein Supply
 
 
 ### Machine Learning Model
-* Machine Learning Model - TBD
+* Machine Learning Model - will evaluate the data features and provide information about the feature importance, as well as clustering of features that contribute to Human Longevity.
 
 
 
