@@ -117,6 +117,17 @@ Now began creating interactive maps in Tableau, which will be the ultimate locat
 * Features "Year" slider that will allow user to adjust graphs accordingly for a year of interest between 2000-2019
 * Further metrics are to be added as graphs/maps once data is aggregated into GeoJSON file
 
+Further Fleshing Out of Tableau Dashboard to Include Full Life Expectancy Page
+Year 2000:
+<img width="1443" alt="Screen Shot 2022-12-18 at 12 47 26 AM" src="https://user-images.githubusercontent.com/108832056/208283544-14a8a0ff-8f07-4ebd-959f-8db73505b6d5.png">
+Year 2019:
+<img width="1463" alt="Screen Shot 2022-12-18 at 12 49 24 AM" src="https://user-images.githubusercontent.com/108832056/208283626-d4957a60-2bfe-47e4-97ef-1cbc588a63b8.png">
+
+Dashboard: Life Expectancy
+<img width="1461" alt="Screen Shot 2022-12-19 at 12 03 17 AM" src="https://user-images.githubusercontent.com/108832056/208351564-01afe3ac-fe1e-4ace-bf2a-671d6b665906.png">
+
+
+
 ### Data Accreditation:
 
 * Life Expectancy/Population: https://population.un.org/wpp/Download/Files/1_Indicators%20(Standard)/CSV_FILES/WPP2022_Demographic_Indicators_Medium.zip
