@@ -46,7 +46,7 @@ We frequently encountered data that was missing data values.  Sometimes for spec
 
 Another issue that we frequently encountered was data that included general geographic regions, in addition to listing the individual countries.  Because the primary Life Expectancy data and social security system data was oriented towards individual countries, the regional data was processed out of the input data before bringing this information into the database and machine-learning model.
 
-Additionally, there were frequent issues with the individual country names.  This was due to a number of factors, such as, accented characters within the country name, for example `Côte d'Ivoire`, and `Democratic Republic of the Congo` vs. `Congo, Democratic Republic of the`.
+Additionally, there were frequent issues with the individual country names.  This was due to a number of factors, such as, accented characters within the country name, for example `Côte d'Ivoire`, and the fullness of country names, such as, `Democratic Republic of the Congo` vs. `Congo, Democratic Republic`.
 
 ![Data pre-processing - reconciling country names](./Resources/data-preprocessing-reconciling-countries.png)
 
@@ -62,10 +62,9 @@ The team has made the following decisions:
 
 ### Technology: 
 * Data Exploration: Python/Pandas/Jupyter Notebook.
-* Database exploration: PostgreSQL database engine.
+* Database: MongoDB free tier - M0 cloud database
 * Machine Learning: Python & Scikit-Learn.  Maybe also Tensorflow.
-* Heroku for project hosting, includes webserver and postgres db.
-* Presentation: Interactive JavaScript Leaflet Map
+* Presentation: Tableau
 
 ## Architecture and Design
 The high-level archictecture for this project is depicted below:
@@ -73,9 +72,7 @@ The high-level archictecture for this project is depicted below:
 ![High-Level Architecture](./Resources/hl-architecture.png)
 
 #### Architecture and Design Description
-The User Interface/Dashboard will be presented to the user via a web page.  The web page will interact with a PostgreSQL database to request data from display on the web page.  The Machine Learning model will interact with the PostgreSQL database to collect the input data and provide results back to the database.
-
-All of these components will be hosted within Heroku.
+The Dashboard will be presented to the user via Tableau Public.  Tableau may connect to the MongoDB, or be provided data in CSV format.  The Machine Learning model will interact with the PostgreSQL database to collect the input data and provide results back to the database.
 
 Below is a high-level diagram of the User Interface/Dashboard:
 ![High-Level UI/Dashboard](./Resources/HL-presentation-diagram.png)
@@ -85,10 +82,15 @@ Below is a high-level diagram of the User Interface/Dashboard:
 
 
 ### Database: 
-* PostgreSQL Database - We decided to exploring other cloud database instead of setting up one with Heroku. We are currently looking into AWS Postgres, OCI Cloud Free Tier, and Google Cloud SQL For PostgreSQL. 
-* The collected project input data will not exceed the limitations of the minimal environment.  
+* MongoDB Cloud Database - We decided this is the best option for the collection of data we are gathering and processing for this project. 
+    * The collected project input data will not exceed the limitations of the minimal environment.  
 
-![ERD Database](./Resources/ERD.jpg)
+    ![Database](./Resources/database_data1.png)
+
+We are working with a subset of our data that was imported into the database.
+
+![Database Data](./Resources/database_data-detail.png)
+
 
 Below is a list of features we identified and will use for our analysis.
 - Age 
@@ -102,6 +104,7 @@ Below is a list of features we identified and will use for our analysis.
 
 ### Machine Learning Model
 * Machine Learning Model - will evaluate the data features and provide information about the feature importance, as well as clustering of features that contribute to Human Longevity.
+* Currently, the machine learning model is using PCA for feature reduction, and KMeans for clustering analysis
 
 
 
@@ -130,7 +133,7 @@ Dashboard: Life Expectancy
 
 ### Data Accreditation:
 
-* Life Expectancy/Population: https://population.un.org/wpp/Download/Files/1_Indicators%20(Standard)/CSV_FILES/WPP2022_Demographic_Indicators_Medium.zip
+* Life Expectancy: https://data.worldbank.org/indicator/SP.DYN.LE00.IN
 * GDP: https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?end=2021&start=1960
 * Other data: https://databank.worldbank.org/source/world-development-indicators
 * ISSA - The International Social Security Association (ISSA) is the world’s leading international organization for social security institutions, government departments and agencies.  The ISSA compiles international country profiles with information about the scope and breadth of each country's social security program(s).  They provided the type of system employed by each of the countries in this study, as well as the definitions of the system types.  Links to the country profiles are included within the `country_profile_urls.csv` file.
