@@ -106,7 +106,23 @@ Below is a list of features we identified and will use for our analysis.
 * Machine Learning Model - will evaluate the data features and provide information about the feature importance, as well as clustering of features that contribute to Human Longevity.
 * Currently, the machine learning model is using PCA for feature reduction, and KMeans for clustering analysis
 
+Because the data under investigation is based on individual countries, the data set is wide (523 feature columns).  To help generate graphable results, Principal Component Analysis (PCA) was used to reduce the feature set down to three primary components.
 
+![Principal Component Analysis](./Resources/machine_learning-clustering-attempt_1-PCA.png)
+
+An Elbow Curve diagram was then generated to help determine the likely number of clusters.
+
+![Elbow Curve](./Resources/machine_learning-clustering-attempt_1-Elbow_Curve.png)
+
+Based on this diagram, n_clusters was set to 3, and then the clusters were predicted.
+
+![KMeans Clusters](./Resources/machine_learning-clustering-attempt_1.png)
+
+Because the data was abstracted through the use of PCA, it is difficult to interpret the clustering results.
+
+![Clustering Interpretation](./Resources/cluster-interpretation.png)
+
+Additional experiements are underway to try different data combinations and different models, such as KPrototypes.
 
 
 ### Presentation
