@@ -21,6 +21,10 @@ After reviewing the available data, we saw that there was only healthcare system
 
 This study focuses on the social security programs associated with health (Sickness and Maternity), but can include information about retirement systems, such as for North Macedonia, where the country does not indicate a separate social security system for health.
 
+#### [Google Slides Presentation](https://docs.google.com/presentation/d/1GDFdQnD2gt4tPtTPS35o6d5ekbh1FRK6IDjy1pRzjho/edit?usp=sharing)
+
+#### [Tableau Dashboard](https://public.tableau.com/app/profile/vivek.gurumoorthy7572/viz/Life_Expectancy_16711432013830/LifeExpectancyDash?publish=yes)
+
 #### Social Security System Definitions
 * Individual account: (may be mandatory or optional)
 * Notional defined contribution (NDC)
