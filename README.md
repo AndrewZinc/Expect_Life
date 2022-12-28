@@ -150,6 +150,7 @@ Dashboard: Life Expectancy
 ### Data Accreditation:
 
 * Life Expectancy: https://data.worldbank.org/indicator/SP.DYN.LE00.IN
+* Population: https://www.unfpa.org/data/world-population-dashboard
 * GDP: https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?end=2021&start=1960
 * Other data: https://databank.worldbank.org/source/world-development-indicators
 * ISSA - The International Social Security Association (ISSA) is the world’s leading international organization for social security institutions, government departments and agencies.  The ISSA compiles international country profiles with information about the scope and breadth of each country's social security program(s).  They provided the type of system employed by each of the countries in this study, as well as the definitions of the system types.  Links to the country profiles are included within the `country_profile_urls.csv` file.
