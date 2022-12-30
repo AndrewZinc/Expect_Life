@@ -21,6 +21,10 @@ After reviewing the available data, we saw that there was only healthcare system
 
 This study focuses on the social security programs associated with health (Sickness and Maternity), but can include information about retirement systems, such as for North Macedonia, where the country does not indicate a separate social security system for health.
 
+#### [Google Slides Presentation](https://docs.google.com/presentation/d/1GDFdQnD2gt4tPtTPS35o6d5ekbh1FRK6IDjy1pRzjho/edit?usp=sharing)
+
+#### [Tableau Dashboard](https://public.tableau.com/app/profile/vivek.gurumoorthy7572/viz/Life_Expectancy_16711432013830/LifeExpectancyDash?publish=yes)
+
 #### Social Security System Definitions
 * Individual account: (may be mandatory or optional)
 * Notional defined contribution (NDC)
@@ -63,7 +67,7 @@ The team has made the following decisions:
 ### Technology: 
 * Data Exploration: Python/Pandas/Jupyter Notebook.
 * Database: MongoDB free tier - M0 cloud database
-* Machine Learning: Python & Scikit-Learn.  Maybe also Tensorflow.
+* Machine Learning: Python & Scikit-Learn.
 * Presentation: Tableau
 
 ## Architecture and Design
@@ -149,8 +153,8 @@ Dashboard: Life Expectancy
 
 ### Data Accreditation:
 
-* Life Expectancy: https://data.worldbank.org/indicator/SP.DYN.LE00.IN
-* Population: https://www.unfpa.org/data/world-population-dashboard
-* GDP: https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?end=2021&start=1960
-* Other data: https://databank.worldbank.org/source/world-development-indicators
+* [World Bank: Life Expectancy](https://data.worldbank.org/indicator/SP.DYN.LE00.IN)
+* [Data Population from United Nations Population Fund](https://www.unfpa.org/data/world-population-dashboard)
+* [World Bank: GDP](https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?end=2021&start=1960)
+* [Additional World Development Indicators](https://databank.worldbank.org/source/world-development-indicators)
 * ISSA - The International Social Security Association (ISSA) is the world’s leading international organization for social security institutions, government departments and agencies.  The ISSA compiles international country profiles with information about the scope and breadth of each country's social security program(s).  They provided the type of system employed by each of the countries in this study, as well as the definitions of the system types.  Links to the country profiles are included within the `country_profile_urls.csv` file.
