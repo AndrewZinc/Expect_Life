@@ -25,14 +25,13 @@ This study focuses on the social security programs associated with health (Sickn
 
 #### [Tableau Dashboard](https://public.tableau.com/app/profile/vivek.gurumoorthy7572/viz/Life_Expectancy_16711432013830/LifeExpectancyDash?publish=yes)
 
-#### Social Security System Definitions
-* Individual account: (may be mandatory or optional)
-* Notional defined contribution (NDC)
-* Occupational pension system:
-* Provident fund:
-* Social assistance system:
-* Social insurance system:
-* Universal system: (system components are identified separately)
+#### Social Security System General Definitions
+Note:  In all cases, parenthetical benefits are defined as the ONLY benefits provided by the system.
+* Social assistance system: A scheme to provide benefits to low-income residents.
+* Social insurance system:  An insurance scheme provides support/benefits to residents.
+* Universal system: (system benefit components are identified separately) A scheme where services/benefits are provided for free or minimal cost.
+* Employment-related: Employed, self-employed, and persons with limited income may receive specific benefits.
+* Employer-Liability: Employed persons may receive specific benefits.
 
 
 
