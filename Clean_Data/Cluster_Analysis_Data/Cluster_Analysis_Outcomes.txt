@@ -9,6 +9,7 @@ Agglomerative Clustering (Ward)
 Birch
 Gaussian Mixture Model
 KMeans
+Spectral Clustering
 
 Normalization:
 MinMaxScaler, RobustScaler
