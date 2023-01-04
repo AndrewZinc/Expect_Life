@@ -123,6 +123,7 @@ Below is a list of features we identified and will use for our analysis.
 - Gender
 - Population
 - GDP (USD)
+- GDP Per Capita (USD)
 - Tobacco use
 - Alcohol use
 - Daily Protein Supply
@@ -153,26 +154,15 @@ Additional experiements are underway to try different data combinations and diff
 
 ### Presentation
 
-#### [Tableau Dashboard](https://public.tableau.com/app/profile/vivek.gurumoorthy7572/viz/Life_Expectancy_16711432013830/LifeExpectancyDash?publish=yes)
-
 * Presentation - Interactive Maps (sample provided below):
 
-Originally we depicted life expectancy data on html page using JS Leaflet:
-* <img width="1329" alt="Screen Shot 2022-12-12 at 8 07 01 PM" src="https://user-images.githubusercontent.com/108832056/207201154-59ead66d-f9a2-4fa8-8aa3-6d891b5f99eb.png">
+Dashboards: Life Expectancy, GDP per Capita, Alcohol, Tobacco with Filters for Region and Sub-Region
+<img width="1464" alt="Screen Shot 2023-01-04 at 8 43 41 AM" src="https://user-images.githubusercontent.com/108832056/210568884-9947e540-5c3a-4492-b503-fb83b713657b.png">
+<img width="1464" alt="Screen Shot 2023-01-04 at 8 44 16 AM" src="https://user-images.githubusercontent.com/108832056/210568944-cd4dcef9-bd48-450d-a4b2-b95465cc34be.png">
+<img width="1470" alt="Screen Shot 2023-01-04 at 8 42 05 AM" src="https://user-images.githubusercontent.com/108832056/210569296-08af29da-0f9f-4b61-b06a-7f451fdefef7.png">
+<img width="1463" alt="Screen Shot 2023-01-04 at 8 42 58 AM" src="https://user-images.githubusercontent.com/108832056/210569348-4779d87c-9f2c-4ee9-8f6c-4613e361b2a2.png">
 
-Now began creating interactive maps in Tableau, which will be the ultimate location of our final dashboard:
-<img width="1443" alt="Screen Shot 2022-12-17 at 8 31 31 PM" src="https://user-images.githubusercontent.com/108832056/208272758-dc6e6d47-a09e-4920-8e6c-02df7a8af42b.png">
-* Features "Year" slider that will allow user to adjust graphs accordingly for a year of interest between 2000-2019
-* Further metrics are to be added as graphs/maps once data is aggregated into GeoJSON file
 
-Further Fleshing Out of Tableau Dashboard to Include Full Life Expectancy Page
-Year 2000:
-<img width="1443" alt="Screen Shot 2022-12-18 at 12 47 26 AM" src="https://user-images.githubusercontent.com/108832056/208283544-14a8a0ff-8f07-4ebd-959f-8db73505b6d5.png">
-Year 2019:
-<img width="1463" alt="Screen Shot 2022-12-18 at 12 49 24 AM" src="https://user-images.githubusercontent.com/108832056/208283626-d4957a60-2bfe-47e4-97ef-1cbc588a63b8.png">
-
-Dashboard: Life Expectancy
-<img width="1461" alt="Screen Shot 2022-12-19 at 12 03 17 AM" src="https://user-images.githubusercontent.com/108832056/208351564-01afe3ac-fe1e-4ace-bf2a-671d6b665906.png">
 
 
 ### Google Slide Presentation
