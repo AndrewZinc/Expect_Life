@@ -41,21 +41,28 @@ Input data was sourced from multiple locations:
 ### Input Data Issues
 
 We frequently encountered the following types of input data issues.
+* Identifying data sources and gathering the data
 * Country naming conventions
 * Data Organization
 * Missing data
 * Out-of-date Data
 
+#### Identifying Data Sources - Gathering Data
+An initial sweep of data sources identified a Wikipedia article as a potential input.  After scraping the article for the country and healthcare system information, it was determined that the data volume was inadequate as it only covered about half of the global countries.
+
+After this, the Wikipedia references were used to identify potentially related data sources, which led to the use of the ISSA data.  This also required scraping the site to collect the relevant country and social security system descriptions and elements to enable this analysis.
+
 #### Country Naming
 Country names were presented in different ways, depending on the information source.  Different naming conventions included a number of factors, such as, accented characters within the country name, for example `Côte d'Ivoire`, and the fullness of country names, such as, `Democratic Republic of the Congo` vs. `Congo, Democratic Republic`.
-
-![Data pre-processing - reconciling country names](./Resources/data-preprocessing-reconciling-countries.png)
 
 Since the national social security system data was very complete, these names were used as the basis for standardizing the other data sets and country naming.  Note that some of the country names were shortened to their more commonly recognized form to facilitate mapping.  (For example, `Bolivia, Plurinational State of` was shortened to `Bolivia`.
 
 #### Data Organization
 Another issue that we frequently encountered was data that included general geographic regions, in addition to listing the individual countries.  Because the primary Life Expectancy data and social security system data was oriented towards individual countries, the regional data was processed out of the input data before bringing this information into the database and machine-learning models.
 
+The image below shows a raw input data file that contains various geographical areas that have been highlighted for clarity.
+
+![Data pre-processing - reconciling country names](./Resources/data-preprocessing-reconciling-countries.png)
 
 #### Missing Data
 The data sets were frequently missing data values.  Sometimes for specific metrics in specific years, and other times for collections of metrics within one or more countries.
@@ -63,6 +70,8 @@ The data sets were frequently missing data values.  Sometimes for specific metri
 ![Data pre-processing - missing values](./Resources/data-preprocessing-missing-values.png)
 
 This presented a large challenge, as the process of combining the various datasets would ultimately reduce the represented countries down to those that had data across all the features.  The Alcohol & Tobacco usage, the food supply, and the daily protein intake were the three most restrictive datasets.
+
+Within the GDP data file, the following countries were dropped because of missing information: British Virgin Islands, Jersey, Slovakia, Taiwan (China), and Venezuela.
 
 
 #### Out-of-date Data
@@ -74,10 +83,6 @@ Also, for mapping within Tableau, this required --- @Vivek - TBD.
 
 
 
-
-
-#### Gross Domestic Product
-The resulting data file contained all of the countries that aligned with the Social Security System data.  Within this collection of countries, the following were dropped because of missing information: British Virgin Islands, Jersey, Slovakia, Taiwan (China), and Venezuela.
 
 ### Team Structure and assignments:  
 The team has made the following decisions:
@@ -98,14 +103,19 @@ The high-level archictecture for this project is depicted below:
 ![High-Level Architecture](./Resources/hl-architecture.png)
 
 #### Architecture and Design Description
-The Dashboard will be presented to the user via Tableau Public.  Tableau may connect to the MongoDB, or be provided data in CSV format.  The Machine Learning model will interact with the MongoDB cloud database to collect the input data and generate results.
+Input data will be loaded into the MongoDB database in CSV format using MongoDB Compass. The Dashboard will be presented to the user via Tableau Public.  Tableau may connect to the MongoDB, or be provided data in CSV format.  The Machine Learning model will interact with the MongoDB cloud database to collect the input data and generate results.
 
 Below is a high-level diagram of the User Interface/Dashboard:
 ![High-Level UI/Dashboard](./Resources/HL-presentation-diagram.png)
 
 
 ## Deliverables:
-
+This project will produce five deliverables:
+* A cloud-based database
+* Machine learning models
+* An interactive dashboard
+* A team presentation of the project with a slide deck
+* A team GitHub repository
 
 ### Database: 
 * MongoDB Cloud Database - We decided this is the best option for the collection of data we are gathering and processing for this project. 
@@ -113,7 +123,7 @@ Below is a high-level diagram of the User Interface/Dashboard:
 
     ![Database](./Resources/database_data1.png)
 
-We are working with a subset of our data that was imported into the database.
+The data is organized into collections according to the intended use of the information.
 
 ![Database Data](./Resources/database_data-detail.png)
 
