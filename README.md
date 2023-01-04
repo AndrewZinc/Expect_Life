@@ -157,6 +157,7 @@ Additional experiements are underway to try different data combinations and diff
 Dashboards: Life Expectancy, GDP per Capita, Tobacco, Alcohol
 - Interactive maps visualizing characterizing global spread of analytical metrics
 - Filters allow comparisons of regions and sub-regions against one another as well as summary statistics of the selected countries in the metric of interest
+- Currently fleshing out Tableau story to depict differences between regions and change in data over time
 <img width="1464" alt="Screen Shot 2023-01-04 at 8 43 41 AM" src="https://user-images.githubusercontent.com/108832056/210568884-9947e540-5c3a-4492-b503-fb83b713657b.png">
 <img width="1464" alt="Screen Shot 2023-01-04 at 8 44 16 AM" src="https://user-images.githubusercontent.com/108832056/210568944-cd4dcef9-bd48-450d-a4b2-b95465cc34be.png">
 <img width="1470" alt="Screen Shot 2023-01-04 at 8 42 05 AM" src="https://user-images.githubusercontent.com/108832056/210569296-08af29da-0f9f-4b61-b06a-7f451fdefef7.png">
