@@ -1,0 +1,60 @@
+MongoDB connection notes:
+
+1. Install dependencies and configure your environment
+
+install pymongo: conda install -c anaconda pymongo
+install dnspython: conda install -c conda-forge dnspython
+install python-dotenv: conda install -c conda-forge python-dotenv
+
+Use a text editor to create a .env file in the same directory as your jupyter notebook(s)
+
+The .env file contains your mongoDB URI string (connection string with username/password).  Ensure that your .gitignore file includes this entry to prevent it from being added to the github repo.
+
+# MongoDB connection string
+MONGODB_URI=' <your string here>'
+
+
+2. Update your Jupyter notebook(s)
+
+Add these dependencies:
+
+from dotenv import load_dotenv
+from pymongo import MongoClient
+
+Add the following steps to make a connection:
+
+# load the config from the .env file
+load_dotenv()
+MONGODB_URI = os.environ['MONGODB_URI']
+
+# Connect to the database engine
+client = MongoClient(MONGODB_URI)
+
+# connect to the project db
+db = client['ExpectLife']
+
+# get a reference to the data collection
+data = db['clustering_final_system_list_input']  <<<<---- This needs to be adjusted for your needs.
+
+( look in MongoDB Compass to get your collection name, or use the following code to query from your Jupyter notebook:
+
+# list the collections in the db
+collections = db.list_collection_names()
+for collection in collections:
+    print(collection)		)
+
+
+Finally - retreive your data
+
+# Create a dataframe from the collection
+combined_df = pd.DataFrame(list(data.find()))
+combined_df
+
+You will likely also need to remove the db _id info...
+
+
+# Drop the database id data and refresh the index
+combined_df = combined_df.drop(['_id'], axis=1)
+combined_df = combined_df.reset_index(drop=True)
+combined_df
+
