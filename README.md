@@ -12,7 +12,6 @@ Questions to be answered by this project:
 * Does the amount of healthcare funding impact life expectancy?
 * Does a country's GDP impact life expectancy?
 * How big of a role do selected lifestyle factors (for example, alcohol consumption, smoking) play in life expectancy?
-* What portion of differences in life expectancy is caused by young deaths (under 65)?
 * Other questions - TBD
 
 **Selection Rational**: There are continuing discussions in American politics about the need for changes in the national healthcare system.  Elections have seen candidates propose the adoption of Universal Healthcare or other similar large-scale changes.  This project seeks to explore whether the type of national healthcare system can affect the longevity of the population.  This will be explored with data from nations around the world.
@@ -21,41 +20,69 @@ After reviewing the available data, we saw that there was only healthcare system
 
 This study focuses on the social security programs associated with health (Sickness and Maternity), but can include information about retirement systems, such as for North Macedonia, where the country does not indicate a separate social security system for health.
 
-#### [Google Slides Presentation](https://docs.google.com/presentation/d/1GDFdQnD2gt4tPtTPS35o6d5ekbh1FRK6IDjy1pRzjho/edit?usp=sharing)
 
-#### [Tableau Dashboard](https://public.tableau.com/app/profile/vivek.gurumoorthy7572/viz/Life_Expectancy_16711432013830/LifeExpectancyDash?publish=yes)
 
-#### Social Security System Definitions
-* Individual account: (may be mandatory or optional)
-* Notional defined contribution (NDC)
-* Occupational pension system:
-* Provident fund:
-* Social assistance system:
-* Social insurance system:
-* Universal system: (system components are identified separately)
+#### Social Security System General Definitions
+Note:  In all cases, parenthetical benefits are defined as the ONLY benefits provided by the system.
+* Social assistance system: A scheme to provide benefits to low-income residents.
+* Social insurance system:  An insurance scheme provides support/benefits to residents.
+* Universal system: (system benefit components are identified separately) A scheme where services/benefits are provided for free or minimal cost.
+* Employment-related: Employed, self-employed, and persons with limited income may receive specific benefits.
+* Employer-Liability: Employed persons may receive specific benefits.
 
 
 
 ## Input Data
 Input data was sourced from multiple locations:
-* Life Expectancy data was collected from the World Bank.
-* GDP data was also collected from the World Bank.
+* Life Expectancy data was collected from the World Bank and the World Health Organization.
+* GDP data was collected from the World Bank.
 * Social Security system data was collected from ISSA (The International Social Security Association)
 
 ### Input Data Issues
-We frequently encountered data that was missing data values.  Sometimes for specific metrics in specific years, and other times for collections of metrics within one or more countries.
 
-![Data pre-processing - missing values](./Resources/data-preprocessing-missing-values.png)
+We frequently encountered the following types of input data issues.
+* Identifying data sources and gathering the data
+* Country naming conventions
+* Data Organization
+* Missing data
+* Out-of-date Data
 
+#### Identifying Data Sources - Gathering Data
+An initial sweep of data sources identified a Wikipedia article as a potential input.  After scraping the article for the country and healthcare system information, it was determined that the data volume was inadequate as it only covered about half of the global countries.
 
-Another issue that we frequently encountered was data that included general geographic regions, in addition to listing the individual countries.  Because the primary Life Expectancy data and social security system data was oriented towards individual countries, the regional data was processed out of the input data before bringing this information into the database and machine-learning model.
+After this, the Wikipedia references were used to identify potentially related data sources, which led to the use of the ISSA data.  This also required scraping the site to collect the relevant country and social security system descriptions and elements to enable this analysis.
 
-Additionally, there were frequent issues with the individual country names.  This was due to a number of factors, such as, accented characters within the country name, for example `Côte d'Ivoire`, and the fullness of country names, such as, `Democratic Republic of the Congo` vs. `Congo, Democratic Republic`.
+#### Country Naming
+Country names were presented in different ways, depending on the information source.  Different naming conventions included a number of factors, such as, accented characters within the country name, for example `Côte d'Ivoire`, and the fullness of country names, such as, `Democratic Republic of the Congo` vs. `Congo, Democratic Republic`.
+
+Since the national social security system data was very complete, these names were used as the basis for standardizing the other data sets and country naming.  Note that some of the country names were shortened to their more commonly recognized form to facilitate mapping.  (For example, `Bolivia, Plurinational State of` was shortened to `Bolivia`.
+
+#### Data Organization
+Another issue that we frequently encountered was data that included general geographic regions, in addition to listing the individual countries.  Because the primary Life Expectancy data and social security system data was oriented towards individual countries, the regional data was processed out of the input data before bringing this information into the database and machine-learning models.
+
+The image below shows a raw input data file that contains various geographical areas that have been highlighted for clarity.
 
 ![Data pre-processing - reconciling country names](./Resources/data-preprocessing-reconciling-countries.png)
 
-#### Gross Domestic Product
-The resulting data file contained all of the countries that aligned with the Social Security System data.  Within this collection of countries, the following were dropped because of missing information: British Virgin Islands, Jersey, Slovakia, Taiwan (China), and Venezuela.
+#### Missing Data
+The data sets were frequently missing data values.  Sometimes for specific metrics in specific years, and other times for collections of metrics within one or more countries.
+
+![Data pre-processing - missing values](./Resources/data-preprocessing-missing-values.png)
+
+This presented a large challenge, as the process of combining the various datasets would ultimately reduce the represented countries down to those that had data across all the features.  The Alcohol & Tobacco usage, the food supply, and the daily protein intake were the three most restrictive datasets.
+
+Within the GDP data file, the following countries were dropped because of missing information: British Virgin Islands, Jersey, Slovakia, Taiwan (China), and Venezuela.
+
+
+#### Out-of-date Data
+Another challenge was associated with locating complete data sets across consistent years.  For purposes of the clustering analysis, the most current data was used for each dataset, as this would be unlikely to affect the models' ability to make connections across the features.
+
+However, for purposes of determining feature importance through supervised machine learning, this required ---@David - TBD.
+
+Also, for mapping within Tableau, this required --- @Vivek - TBD.
+
+
+
 
 ### Team Structure and assignments:  
 The team has made the following decisions:
@@ -76,14 +103,19 @@ The high-level archictecture for this project is depicted below:
 ![High-Level Architecture](./Resources/hl-architecture.png)
 
 #### Architecture and Design Description
-The Dashboard will be presented to the user via Tableau Public.  Tableau may connect to the MongoDB, or be provided data in CSV format.  The Machine Learning model will interact with the PostgreSQL database to collect the input data and provide results back to the database.
+Input data will be loaded into the MongoDB database in CSV format using MongoDB Compass. The Dashboard will be presented to the user via Tableau Public.  Tableau may connect to the MongoDB, or be provided data in CSV format.  The Machine Learning model will interact with the MongoDB cloud database to collect the input data and generate results.
 
 Below is a high-level diagram of the User Interface/Dashboard:
 ![High-Level UI/Dashboard](./Resources/HL-presentation-diagram.png)
 
 
 ## Deliverables:
-
+This project will produce five deliverables:
+* A cloud-based database
+* Machine learning models
+* An interactive dashboard
+* A team presentation of the project with a slide deck
+* A team GitHub repository
 
 ### Database: 
 * MongoDB Cloud Database - We decided this is the best option for the collection of data we are gathering and processing for this project. 
@@ -91,7 +123,7 @@ Below is a high-level diagram of the User Interface/Dashboard:
 
     ![Database](./Resources/database_data1.png)
 
-We are working with a subset of our data that was imported into the database.
+The data is organized into collections according to the intended use of the information.
 
 ![Database Data](./Resources/database_data-detail.png)
 
@@ -101,6 +133,7 @@ Below is a list of features we identified and will use for our analysis.
 - Gender
 - Population
 - GDP (USD)
+- GDP Per Capita (USD)
 - Tobacco use
 - Alcohol use
 - Daily Protein Supply
@@ -130,31 +163,36 @@ Additional experiements are underway to try different data combinations and diff
 
 
 ### Presentation
-* Presentation - Interactive Maps (sample provided below):
 
-Originally we depicted life expectancy data on html page using JS Leaflet:
-* <img width="1329" alt="Screen Shot 2022-12-12 at 8 07 01 PM" src="https://user-images.githubusercontent.com/108832056/207201154-59ead66d-f9a2-4fa8-8aa3-6d891b5f99eb.png">
+Dashboards: Life Expectancy, GDP per Capita, Tobacco, Alcohol
+- Interactive maps visualizing characterizing global spread of analytical metrics
+- Filters allow comparisons of regions and sub-regions against one another as well as summary statistics of the selected countries in the metric of interest
+- Currently fleshing out Tableau story to depict differences between regions and change in data over time
+<img width="1464" alt="Screen Shot 2023-01-04 at 8 43 41 AM" src="https://user-images.githubusercontent.com/108832056/210568884-9947e540-5c3a-4492-b503-fb83b713657b.png">
+<img width="1464" alt="Screen Shot 2023-01-04 at 8 44 16 AM" src="https://user-images.githubusercontent.com/108832056/210568944-cd4dcef9-bd48-450d-a4b2-b95465cc34be.png">
+<img width="1470" alt="Screen Shot 2023-01-04 at 8 42 05 AM" src="https://user-images.githubusercontent.com/108832056/210569296-08af29da-0f9f-4b61-b06a-7f451fdefef7.png">
+<img width="1462" alt="Screen Shot 2023-01-04 at 8 55 45 AM" src="https://user-images.githubusercontent.com/108832056/210570400-88a58c8a-988a-4ec1-9438-09a8712c1295.png">
 
-Now began creating interactive maps in Tableau, which will be the ultimate location of our final dashboard:
-<img width="1443" alt="Screen Shot 2022-12-17 at 8 31 31 PM" src="https://user-images.githubusercontent.com/108832056/208272758-dc6e6d47-a09e-4920-8e6c-02df7a8af42b.png">
-* Features "Year" slider that will allow user to adjust graphs accordingly for a year of interest between 2000-2019
-* Further metrics are to be added as graphs/maps once data is aggregated into GeoJSON file
 
-Further Fleshing Out of Tableau Dashboard to Include Full Life Expectancy Page
-Year 2000:
-<img width="1443" alt="Screen Shot 2022-12-18 at 12 47 26 AM" src="https://user-images.githubusercontent.com/108832056/208283544-14a8a0ff-8f07-4ebd-959f-8db73505b6d5.png">
-Year 2019:
-<img width="1463" alt="Screen Shot 2022-12-18 at 12 49 24 AM" src="https://user-images.githubusercontent.com/108832056/208283626-d4957a60-2bfe-47e4-97ef-1cbc588a63b8.png">
 
-Dashboard: Life Expectancy
-<img width="1461" alt="Screen Shot 2022-12-19 at 12 03 17 AM" src="https://user-images.githubusercontent.com/108832056/208351564-01afe3ac-fe1e-4ace-bf2a-671d6b665906.png">
+
+
+### Google Slide Presentation
+Below is a link to the team slide deck:
+
+[Google Slides Presentation](https://docs.google.com/presentation/d/1GDFdQnD2gt4tPtTPS35o6d5ekbh1FRK6IDjy1pRzjho/edit?usp=sharing)
+
+
 
 
 
 ### Data Accreditation:
 
 * [World Bank: Life Expectancy](https://data.worldbank.org/indicator/SP.DYN.LE00.IN)
+* [World Health Organization: Life Expectancy](https://www.who.int/data/gho/data/indicators/indicator-details/GHO/life-expectancy-at-birth-(years))
 * [Data Population from United Nations Population Fund](https://www.unfpa.org/data/world-population-dashboard)
 * [World Bank: GDP](https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?end=2021&start=1960)
 * [Additional World Development Indicators](https://databank.worldbank.org/source/world-development-indicators)
-* ISSA - The International Social Security Association (ISSA) is the world’s leading international organization for social security institutions, government departments and agencies.  The ISSA compiles international country profiles with information about the scope and breadth of each country's social security program(s).  They provided the type of system employed by each of the countries in this study, as well as the definitions of the system types.  Links to the country profiles are included within the `country_profile_urls.csv` file.
+* [ISSA - The International Social Security Association (ISSA)](https://ww1.issa.int/) 
+
+ISSA is the world’s leading international organization for social security institutions, government departments and agencies.  The ISSA compiles international country profiles with information about the scope and breadth of each country's social security program(s).  They provided the type of system employed by each of the countries in this study, as well as the definitions of the system types.  Links to the country profiles are included within the `country_profile_urls.csv` file.

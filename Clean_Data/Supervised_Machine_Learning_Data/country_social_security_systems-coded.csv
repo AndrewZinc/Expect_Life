@@ -1,0 +1,170 @@
+country,sss_depth,system_type
+Albania,2,"['Universal medical benefits','Social insurance (cash benefits)']"
+Algeria,1,['Social insurance system']
+Angola,3,"['Universal medical benefits','Social insurance (cash maternity benefits)','Employer-liability (cash sickness benefit)']"
+Antigua and Barbuda,1,['Social insurance system']
+Argentina,3,"['Universal medical benefits','Social insurance (cash maternity and medical benefits)','Employer-liability (cash sickness benefit)']"
+Armenia,3,"['Universal (birth or adoption grant and medical benefits)','Social insurance (cash benefits)','Social assistance (maternity benefits)']"
+Aruba,1,['Social insurance system']
+Australia,3,"['Universal medical benefits','Employment-related (parental benefits)','Social assistance (cash sickness benefits and birth grants)']"
+Austria,1,['Social insurance system']
+Azerbaijan,2,"['Universal medical benefits','Social insurance (cash benefits)']"
+Bahamas,3,"['Universal medical benefits','Social insurance (cash benefits)','Social assistance (medical benefits)']"
+Bahrain,2,"['Universal medical benefits','Employer-liability (cash benefits)']"
+Bangladesh,1,['Employer-liability system']
+Barbados,2,"['Universal medical benefits','Social insurance (cash benefits)']"
+Belarus,2,"['Universal (medical benefits and prenatal care grant)','Social insurance (cash benefits)']"
+Belgium,1,['Social insurance system']
+Belize,1,['Social insurance (cash benefits)']
+Benin,2,"['Social insurance (cash maternity benefit)','Employer-liability (cash sickness and medical benefits)']"
+Bhutan,2,"['Universal medical benefits','Employer-liability (cash benefits)']"
+Bolivia,3,"['Universal medical benefits','Social insurance (cash and medical benefits)','Employer-liability (paternity benefits)']"
+Botswana,2,"['Universal medical benefits','Employer-liability (cash benefits)']"
+Brazil,2,"['Universal medical benefits','Social insurance (cash benefits)']"
+Brunei Darussalam,3,"['Universal medical benefits','Employment-related (cash maternity benefits)','Employer-liability (cash sickness and maternity benefits)']"
+Bulgaria,1,['Social insurance system']
+Burkina Faso,1,['Social insurance system (Maternity benefits)']
+Burundi,2,"['Employer-liability (cash and medical benefits)','Social assistance (medical benefits)']"
+Cabo Verde,2,"['Social insurance','Community-based social insurance']"
+Cambodia,3,"['Social insurance (cash sickness and maternity benefits, and medical benefits)','Employer-liability (cash maternity benefit)','Social assistance (cash maternity and medical benefits)']"
+Cameroon,2,"['Social insurance (cash maternity, medical, and prenatal benefits)','Employer-liability (cash sickness and medical benefits)']"
+Canada,2,"['Universal medical benefits','Social insurance (cash benefits)']"
+Central African Republic,2,"['Social insurance (cash maternity benefit)','Employer-liability (cash sickness benefit)']"
+Chad,2,"['Social insurance (cash maternity benefits)','Employer-liability (cash sickness, maternity, and medical benefits)']"
+Chile,3,"['Social insurance (cash and medical benefits)','Mandatory private insurance (cash and medical benefits)','Employer-liability (paternity benefit)']"
+China,2,"['Social insurance (cash and medical benefits)','Mandatory individual account (medical benefits)']"
+Colombia,1,['Social insurance and social assistance system']
+Congo,3,"['Social insurance (cash maternity and medical benefits)','Employer-liability (cash sickness and maternity and medical benefits)']"
+Costa Rica,3,"['Social insurance (cash and medical benefits)','Employer-liability (cash maternity benefits)','Social assistance (medical benefits)']"
+Cote d'Ivoire,3,"['Social insurance (maternity and medical benefits)','Employer-liability (sickness benefit)','Social assistance (medical benefits)']"
+Croatia,1,['Social insurance system']
+Cuba,2,"['Universal medical benefits','Social insurance (cash and in-kind benefits)']"
+Cyprus,1,['Social insurance system']
+Czechia,1,['Social insurance system']
+Democratic Republic of the Congo,2,"['Social insurance (cash maternity benefits)','Employer-liability (cash sickness and medical benefits)']"
+Denmark,2,"['Universal medical benefits','Employment-related (cash benefits)']"
+Djibouti,4,"['Universal medical benefits','Social insurance (maternity and medical benefits)','Employer-liability (sickness, maternity and paternity benefits)','Social assistance (medical benefits)']"
+Dominican Republic,2,"['Social insurance (cash and medical benefits)','Social assistance (medical benefits only)']"
+Ecuador,2,"['Social insurance (cash and medical benefits)','Employer-liability (cash maternity benefit)']"
+Egypt,1,['Social insurance system']
+El Salvador,1,['Social insurance system']
+Equatorial Guinea,1,['Social insurance system']
+Estonia,1,['Social insurance system']
+Eswatini,1,['Employer-liability system (cash sickness and maternity benefits)']
+Ethiopia,2,"['Universal medical benefits','Employer-liability (cash benefits)']"
+Fiji,2,"['Universal medical benefits','Employer-liability (cash benefits)']"
+Finland,1,['Social insurance system']
+France,1,['Social insurance system']
+Gabon,3,"['Social insurance (cash maternity and medical benefits)','Employer-liability (cash sickness benefit)','Social assistance (cash maternity and medical benefits)']"
+Gambia,1,['Employer-liability system (cash sickness and maternity benefits)']
+Georgia,3,"['Social insurance (cash maternity benefit)','Employer-liability (cash sickness benefit)','Social assistance (medical benefits)']"
+Germany,1,['Social insurance system']
+Ghana,2,"['Social insurance (medical benefits)','Employer-liability (cash maternity benefit)']"
+Greece,1,['Social insurance system']
+Grenada,2,"['Social insurance (cash benefits)','Employer-liability (cash benefits)']"
+Guatemala,1,['Social insurance system']
+Guinea,2,"['Social insurance (cash sickness, maternity, and medical benefits)','Employer-liability (cash maternity and medical benefits']"
+Guinea-Bissau,2,"['Social insurance (cash sickness and medical benefits)','Employer-liability (cash maternity benefit)']"
+Guyana,2,"['Universal medical benefits','Social insurance system']"
+Haiti,1,['Social insurance system (cash benefits)']
+Honduras,2,"['Social insurance (cash and medical benefits)','Employer-liability (cash benefits)']"
+Hungary,1,['Social insurance system']
+Iceland,3,"['Universal (medical benefits and cash parental grants)','Social insurance (cash parental benefits)','Employment-related (cash sickness benefits)']"
+India,1,['Social insurance and social assistance system']
+Indonesia,3,"['Social insurance (medical benefits)','Employer-liability (cash benefits)','Social assistance (medical benefits)']"
+Iran,2,"['Social insurance (cash and medical benefits)','Social assistance (medical benefits)']"
+Ireland,2,"['Universal medical benefits','Social insurance (cash benefits)']"
+Israel,1,['Social insurance system']
+Italy,5,"['Universal (medical benefits and pregnancy grant','Social insurance (cash benefits)','Employment-related (tuberculosis benefits)','Employer-liability (paternity leave)','Social assistance (birth grant)']"
+Jamaica,3,"['Universal medical benefits','Social insurance (cash maternity and medical benefits)','Employer-liability (cash benefits)']"
+Japan,1,['Social insurance system']
+Jordan,2,"['Social insurance','Employer-liability (cash sickness benefit)']"
+Kazakhstan,3,"['Universal (medical benefits and birth grant)','Social insurance (cash maternity and child care benefits)','Employer-liability (cash sickness benefit)']"
+Kenya,2,"['Social insurance (medical benefits)','Employer-liability (cash benefits)']"
+Kiribati,2,"['Universal medical benefits','Employer-liability (cash maternity benefits)'"
+Kuwait,2,"['Universal medical benefits','Employer-liability (cash benefits)']"
+Kyrgyz Republic,3,"['Universal medical benefits','Social insurance (cash benefits)','Social assistance (maternity benefits)']"
+Lao People's Democratic Republic,1,['Social insurance system']
+Latvia,1,['Social insurance system']
+Lebanon,1,['Social insurance system (medical benefits)']
+Lesotho,2,"['Universal medical benefits','Employer-liability (cash benefits)']"
+Liberia,1,['Employer-liability system (cash sickness and maternity benefits)']
+Libya,2,"['Social insurance (cash and medical benefits)','Employer-liability (cash maternity benefit)']"
+Lithuania,1,['Social insurance system']
+Luxembourg,2,['Social insurance and Employer-liability']
+Madagascar,2,"['Social insurance (cash maternity and medical benefits)','Employer-liability (cash maternity benefit)']"
+Malawi,1,['Employer-liability (cash sickness and maternity benefits)']
+Malaysia,2,"['Provident fund (medical benefits)','Employer-liability (cash benefits)']"
+Mali,2,"['Social insurance (cash maternity and medical benefits)','Employer-liability (cash sickness benefit)']"
+Malta,3,"['Universal (cash maternity and medical','Social insurance (cash sickness)','Employer-liability (cash maternity)']"
+Mauritania,2,"['Social insurance (cash maternity and medical benefits)','Employer-liability (cash sickness and medical benefits)']"
+Mauritius,1,['Employer-liability system (cash benefits)']
+Mexico,2,"['Social insurance','Social assistance (medical benefits)']"
+Micronesia,1,['Social insurance system']
+Moldova,2,"['Social insurance (cash and medical benefits)','Social assistance (medical benefits)']"
+Morocco,3,"['Social insurance (cash and medical benefits)','Employer-liability (parental leave)','Social assistance (medical benefits)']"
+Mozambique,3,"['Universal medical benefits','Social insurance (cash benefits)','Social assistance (medical benefits)']"
+Myanmar,1,['Social insurance system']
+Namibia,2,['Social insurance and Employer-liability system']
+Nepal,3,"['Universal medical benefits','Provident fund (birth grant and medical benefits)','Employer-liability (cash and medical benefits)']"
+Netherlands,1,['Social insurance system']
+New Zealand,1,['Universal and social assistance system']
+Nicaragua,2,"['Social insurance (cash and medical benefits)','Social assistance (medical benefits)']"
+Niger,3,"['Universal medical benefits','Social insurance (cash maternity and medical benefits)','Employer-liability (cash sickness benefit)']"
+Nigeria,1,['Social insurance system']
+North Macedonia,3,"['Mandatory private pension scheme','Voluntary pension scheme','Open pension funds']"
+Norway,1,['Universal and Social insurance system']
+Oman,2,"['Universal medical benefits','Employer-liability (cash benefits)']"
+Pakistan,1,['Social insurance system']
+Panama,1,['Social insurance system']
+Papua New Guinea,1,['Employer-liability (cash sickness benefits)']
+Paraguay,2,"['Social insurance (cash and medical benefits)','Social assistance (medical benefits)']"
+Peru,3,"['Social insurance (cash and medical benefits)','Mandatory private insurance (medical benefits)','Social assistance (medical benefits and funeral grant)']"
+Philippines,1,['Social insurance system']
+Poland,1,['Social insurance system']
+Portugal,3,"['Universal medical benefits','Social insurance (cash benefits)','Social assistance (cash benefits)']"
+Qatar,2,"['Universal medical benefits','Employer-liability (cash benefits)']"
+Romania,2,"['Social insurance (cash and medical benefits)','Social assistance (medical benefits)']"
+Russian Federation,1,['Social insurance system']
+Rwanda,2,"['Social insurance (cash maternity and medical benefits)','Employer-liability (cash sickness and maternity benefits)']"
+Saint Lucia,1,['Social insurance system']
+Saint Vincent and the Grenadines,2,"['Universal medical benefits','Social insurance (cash benefits)']"
+Samoa,1,['Employer-liability (cash benefits)']
+Sao Tome and Principe,1,['Social insurance system']
+Saudi Arabia,2,"['Universal medical benefits','Employer-liability (cash benefits)']"
+Senegal,3,"['Social insurance (cash maternity and maternity medical benefits)','Voluntary community-based social insurance (medical benefits)','Social assistance (medical benefits)']"
+Serbia,1,['Social insurance system']
+Sierra Leone,1,['Employer-liability system through private carriers']
+Singapore,5,"['Social insurance (medical benefits)','Provident fund (medical benefits)','Employer-liability (cash sickness and maternity benefits)','Employment-related (cash maternity benefit)','Social assistance (medical benefits)']"
+Slovakia,2,"['Universal medical benefits','Social insurance (cash benefits)']"
+Slovenia,1,['Social insurance system']
+Solomon Islands,2,"['Universal medical benefits','Employer-liability (cash benefits)']"
+South Africa,4,"['Universal medical benefits','Social insurance (cash benefits)','Employer-liability (cash sickness benefits)','Social assistance (medical benefits)']"
+South Korea,2,"['Social insurance and social assistance system (Maternity, medical, and long-term care benefits)']"
+Spain,1,['Social insurance system']
+Sri Lanka,2,"['Universal medical benefits','Employer-liability (cash benefits)']"
+Sudan,2,"['Social insurance (medical benefits)','Employer-liability (cash benefits)']"
+Suriname,2,"['Mandatory health insurance through private carriers (medical benefits)','Employer-liability (cash sickness benefit)']"
+Sweden,2,"['Universal (parental and medical benefits)','Social insurance (cash benefits)']"
+Switzerland,2,"['Social insurance (cash maternity benefits and medical benefits)','Employer-liability (cash sickness benefit)']"
+Syrian Arab Republic,2,"['Universal medical benefits','Employer-liability (cash benefits)']"
+Tajikistan,2,"['Universal medical benefits','Social insurance (cash benefits)']"
+Tanzania,2,"['Social insurance (cash maternity and medical benefits)','Employer-liability (cash sickness and paternity benefits)']"
+Thailand,1,['Universal and Social insurance system']
+Togo,3,"['Universal medical benefits','Social insurance (cash maternity benefit)','Employer-liability (cash sickness and medical benefits)']"
+Trinidad and Tobago,3,"['Universal medical benefits','Social insurance','Employer-liability system']"
+Tunisia,2,"['Social insurance (cash and medical benefits)','Social assistance (medical benefits)']"
+Turkiye,2,"['Social insurance system' (cash benefits)','Universal medical benefits']"
+Turkmenistan,2,"['Universal medical benefits','Social insurance (cash benefits)']"
+Uganda,1,['Employer-liability system']
+Ukraine,3,"['Universal medical benefits','Social insurance (cash benefits)','Social assistance (parental leave)']"
+United Kingdom,3,"['Universal medical benefits','Social insurance','Social assistance (cash benefits)']"
+United States of America,3,"['Social insurance','Mandatory private insurance','Social assistance (medical benefits)']"
+Uruguay,4,"['Social insurance (cash sickness and medical benefits)','Employment-related (parental benefits)','Employer-liability (paternity benefit)','Social assistance (medical benefits)']"
+Uzbekistan,2,"['Universal medical benefits','Social insurance (cash benefits)']"
+Vanuatu,1,['Employer-liability system']
+Venezuela,2,"['Universal (birth grant and medical benefits)','Social insurance (cash and medical benefits)']"
+Vietnam,1,['Social insurance system']
+Yemen,2,"['Universal medical benefits','Employer-liability (cash benefits)']"
+Zambia,2,"['Universal medical benefits','Employer-liability (cash benefits)']"
+Zimbabwe,1,['Employer-liability system (cash sickness and maternity benefits)']
