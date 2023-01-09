@@ -1,9 +1,9 @@
 country,tot_alcohol_consumption,tobacco_use_%
-Albania,7.17,23.0
-Algeria,0.95,21.0
+Albania,7.17,23
+Algeria,0.95,21
 Argentina,9.65,24.9
 Armenia,5.55,25.8
-Australia,10.51,14.0
+Australia,10.51,14
 Austria,11.96,27.1
 Azerbaijan,4.41,24.2
 Bahamas,4.78,10.7
@@ -36,7 +36,7 @@ Croatia,9.23,36.7
 Cuba,5.83,18.7
 Cyprus,10.81,35.5
 Czechia,14.45,30.9
-Democratic Republic of the Congo,2.0,13.0
+Democratic Republic of the Congo,2,13
 Denmark,10.26,18.1
 Dominican Republic,6.68,10.9
 Ecuador,4.2,11.6
@@ -53,7 +53,7 @@ Georgia,8.25,31.7
 Germany,12.91,22.5
 Ghana,2.75,3.6
 Greece,10.18,34.5
-Guatemala,2.45,11.0
+Guatemala,2.45,11
 Guinea-Bissau,5.38,9.3
 Guyana,6.89,12.6
 Haiti,2.73,7.9
@@ -61,7 +61,7 @@ Hungary,11.35,32.2
 Iceland,9.12,12.6
 India,5.54,28.1
 Indonesia,0.57,37.2
-Iran,1.03,14.0
+Iran,1.03,14
 Ireland,12.88,21.4
 Israel,4.21,21.6
 Italy,7.84,23.3
@@ -71,7 +71,7 @@ Jordan,0.69,34.6
 Kazakhstan,4.76,23.5
 Kenya,2.78,11.5
 Kiribati,0.46,41.7
-Kuwait,0.0,17.9
+Kuwait,0,17.9
 Kyrgyz Republic,6.26,27.6
 Lao People's Democratic Republic,10.72,32.5
 Latvia,12.77,37.2
@@ -87,7 +87,7 @@ Mali,1.28,8.6
 Malta,7.99,24.5
 Mauritania,0.04,11.1
 Mauritius,4.35,20.5
-Mexico,5.0,13.4
+Mexico,5,13.4
 Moldova,11.43,28.7
 Morocco,0.69,14.9
 Mozambique,2.3,14.8
@@ -108,7 +108,7 @@ Peru,6.38,8.7
 Philippines,6.86,23.4
 Poland,11.71,24.7
 Portugal,12.03,25.3
-Qatar,1.59,12.0
+Qatar,1.59,12
 Romania,11.74,28.4
 Russian Federation,11.19,27.1
 Rwanda,8.95,14.1
@@ -131,16 +131,16 @@ Switzerland,11.53,25.7
 Tanzania,11.27,9.2
 Thailand,8.3,22.5
 Togo,2.46,7.1
-Tunisia,2.12,25.0
+Tunisia,2.12,25
 Turkmenistan,4.93,5.8
 Uganda,15.09,8.9
 Ukraine,8.32,26.2
 United Kingdom,11.45,16.1
 United States of America,9.87,23.4
-Uruguay,6.92,22.0
+Uruguay,6.92,22
 Uzbekistan,2.59,17.8
 Vanuatu,2.25,18.2
-Vietnam,8.66,25.0
+Vietnam,8.66,25
 Yemen,0.05,20.5
 Zambia,6.54,14.6
 Zimbabwe,4.67,12.1

@@ -1,10 +1,10 @@
-country,population
+country,Population (M) 2022
 Albania,2.9
 Algeria,45.4
-Angola,35.0
+Angola,35
 Antigua and Barbuda,0.1
-Argentina,46.0
-Armenia,3.0
+Argentina,46
+Armenia,3
 Aruba,0.1
 Australia,26.1
 Austria,9.1
@@ -18,24 +18,22 @@ Belgium,11.7
 Belize,0.4
 Benin,12.8
 Bhutan,0.8
-Bolivia,12.0
+Bolivia,12
 Botswana,2.4
 Brazil,215.4
 Brunei Darussalam,0.4
 Bulgaria,6.8
 Burkina Faso,22.1
 Burundi,12.6
+Cabo Verde,0.6
 Cambodia,17.2
 Cameroon,27.9
 Canada,38.4
-Cabo Verde,0.6
-Central African Republic,5.0
+Central African Republic,5
 Chad,17.4
 Chile,19.3
 China,1448.5
-Hong Kong (China),7.6
 Colombia,51.5
-Democratic Republic of the Congo,95.2
 Congo,5.8
 Costa Rica,5.2
 Côte d'Ivoire,27.7
@@ -43,8 +41,9 @@ Croatia,4.1
 Cuba,11.3
 Cyprus,1.2
 Czechia,10.7
+Democratic Republic of the Congo,95.2
 Denmark,5.8
-Djibouti,1.0
+Djibouti,1
 Dominica,0.1
 Dominican Republic,11.1
 Ecuador,18.1
@@ -59,7 +58,7 @@ Finland,5.6
 France,65.6
 Gabon,2.3
 Gambia,2.6
-Georgia,4.0
+Georgia,4
 Germany,83.9
 Ghana,32.4
 Greece,10.3
@@ -70,21 +69,21 @@ Guinea-Bissau,2.1
 Guyana,0.8
 Haiti,11.7
 Honduras,10.2
+Hong Kong (China),7.6
 Hungary,9.6
 Iceland,0.3
 India,1406.6
 Indonesia,279.1
-Iran,86.0
-Ireland,5.0
+Iran,86
+Ireland,5
 Israel,8.9
 Italy,60.3
-Jamaica,3.0
+Jamaica,3
 Japan,125.6
 Jordan,10.3
 Kazakhstan,19.2
 Kenya,56.2
 Kiribati,0.1
-South Korea,51.3
 Kuwait,4.4
 Kyrgyz Republic,6.7
 Lao People's Democratic Republic,7.5
@@ -92,7 +91,7 @@ Latvia,1.8
 Lebanon,6.7
 Lesotho,2.2
 Liberia,5.3
-Libya,7.0
+Libya,7
 Lithuania,2.7
 Luxembourg,0.6
 Madagascar,29.2
@@ -104,7 +103,7 @@ Mauritania,4.9
 Mauritius,1.3
 Mexico,131.6
 Micronesia,0.1
-Moldova,4.0
+Moldova,4
 Morocco,37.8
 Mozambique,33.1
 Myanmar,55.2
@@ -126,14 +125,14 @@ Peru,33.7
 Philippines,112.5
 Poland,37.7
 Portugal,10.1
-Qatar,3.0
-Romania,19.0
+Qatar,3
+Romania,19
 Russian Federation,145.8
 Rwanda,13.6
 Saint Lucia,0.2
 Saint Vincent and the Grenadines,0.1
 Samoa,0.2
-San Marino,0.0
+San Marino,0
 Sao Tome and Principe,0.2
 Saudi Arabia,35.8
 Senegal,17.7
@@ -145,19 +144,20 @@ Slovakia,5.5
 Slovenia,2.1
 Solomon Islands,0.7
 South Africa,60.8
+South Korea,51.3
 Spain,46.7
 Sri Lanka,21.6
-Sudan,46.0
+Sudan,46
 Suriname,0.6
 Sweden,10.2
 Switzerland,8.8
 Syrian Arab Republic,19.4
-Tajikistan,10.0
+Tajikistan,10
 Tanzania,63.3
 Thailand,70.1
 Togo,8.7
 Trinidad and Tobago,1.4
-Tunisia,12.0
+Tunisia,12
 Türkiye,85.6
 Turkmenistan,6.2
 Uganda,48.4
@@ -167,7 +167,7 @@ United States of America,334.8
 Uruguay,3.5
 Uzbekistan,34.4
 Venezuela,29.3
-Vietnam,99.0
+Vietnam,99
 Yemen,31.2
 Zambia,19.5
 Zimbabwe,15.3
