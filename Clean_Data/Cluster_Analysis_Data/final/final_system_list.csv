@@ -1,4 +1,4 @@
-country,sss_depth,system_type,GDP(M$),both_sexes_lex,female_lex,male_lex,population,govt_he,private_he,govt_he_gdp,tot_alcohol_consumption,tobacco_use_%,daily plant protein (g  2013),daily animal protein (g  2013),daily calories (2018)
+country,sss_depth,system_type,GDP(M$),both_sexes_lex,female_lex,male_lex,Population (M) 2022,govt_he,private_he,govt_he_gdp,tot_alcohol_consumption,tobacco_use_%,daily plant protein (g) 2013,daily animal protein (g) 2013,Daily caloric supply (2018)
 Albania,2,"['Universal medical benefits','Social insurance (cash benefits)']",18260.043499810003,78.0,79.91,76.25,2.9,392.53,324.65,2.82,7.17,23.0,52.0,59.42,3360
 Algeria,1,['Social insurance system'],167983.14173831,77.13,78.12,76.23,45.4,487.79,262.32,4.06,0.95,21.0,66.97,24.99,3322
 Argentina,3,"['Universal medical benefits','Social insurance (cash maternity and medical benefits)','Employer-liability (cash sickness benefit)']",491492.70065701,76.58,79.5,73.51,46.0,1371.24,822.13,5.93,9.65,24.9,35.7,66.94,3307
@@ -28,6 +28,7 @@ China,2,"['Social insurance (cash and medical benefits)','Mandatory individual a
 Colombia,1,['Social insurance and social assistance system'],314322.4532283,79.31,81.87,76.69,51.5,865.7,338.59,5.54,5.74,8.8,30.9,33.48,3114
 Congo,3,"['Social insurance (cash maternity and medical benefits)','Employer-liability (cash sickness and maternity and medical benefits)']",12523.9616773,64.74,65.61,63.81,5.8,30.71,44.16,0.78,9.27,14.3,29.41,22.25,2285
 Costa Rica,3,"['Social insurance (cash and medical benefits)','Employer-liability (cash maternity benefits)','Social assistance (medical benefits)']",64282.438666739996,80.85,83.44,78.31,5.2,1186.82,449.35,5.28,4.87,9.1,34.09,40.98,3029
+Côte d'Ivoire,3,"['Social insurance (maternity and medical benefits)','Employer-liability (sickness benefit)','Social assistance (medical benefits)']",69764.82746744,62.92,65.81,60.53,27.7,52.22,99.98,0.96,2.71,9.7,44.84,13.67,2778
 Croatia,1,['Social insurance system'],67837.78854359,78.64,81.6,75.54,4.1,1767.7,399.92,5.69,9.23,36.7,36.37,47.98,3074
 Cuba,2,"['Universal medical benefits','Social insurance (cash and in-kind benefits)']",107352.000001,77.76,80.25,75.37,11.3,2320.95,275.17,10.13,5.83,18.7,59.09,31.77,3344
 Cyprus,1,['Social insurance system'],27719.33767002,83.14,85.12,81.12,1.2,1689.86,1306.3,3.93,10.81,35.5,32.56,45.05,3019
@@ -103,6 +104,7 @@ Philippines,1,['Social insurance system'],394086.41934306,70.43,73.6,67.4,112.5,
 Poland,1,['Social insurance system'],674048.26639737,78.27,81.93,74.53,37.7,1575.14,630.18,4.6,11.71,24.7,48.2,53.27,3537
 Portugal,3,"['Universal medical benefits','Social insurance (cash benefits)','Social assistance (cash benefits)']",249886.46435475,81.57,84.4,78.56,10.1,2142.55,1372.73,5.81,12.03,25.3,43.6,67.28,3480
 Romania,2,"['Social insurance (cash and medical benefits)','Social assistance (medical benefits)']",284087.56369579997,75.57,79.26,71.95,19.0,1527.93,378.68,4.6,11.74,28.4,55.81,47.21,3581
+Russian Federation,1,['Social insurance system'],1775799.9193529799,73.23,78.0,68.18,145.8,1042.05,661.99,3.45,11.19,27.1,46.66,56.18,3345
 Rwanda,2,"['Social insurance (cash maternity and medical benefits)','Employer-liability (cash sickness and maternity benefits)']",11070.35651948,69.1,71.24,66.88,13.6,58.22,38.28,2.56,8.95,14.1,51.22,5.59,2188
 Samoa,1,['Employer-liability (cash benefits)'],788.3899716,70.45,71.85,69.16,0.2,314.68,46.88,4.62,2.66,25.9,31.87,53.66,3030
 Sao Tome and Principe,1,['Social insurance system'],547.09291504,70.42,71.99,68.79,0.2,107.27,43.59,2.62,5.88,5.8,37.18,15.9,2446
@@ -126,6 +128,7 @@ Turkmenistan,2,"['Universal medical benefits','Social insurance (cash benefits)'
 Uganda,1,['Employer-liability system'],40434.701516949994,66.69,70.1,63.24,48.4,13.96,39.6,0.58,15.09,8.9,40.29,12.39,1981
 Ukraine,3,"['Universal medical benefits','Social insurance (cash benefits)','Social assistance (parental leave)']",200085.53774435,73.02,77.81,68.0,43.2,406.32,494.67,3.18,8.32,26.2,45.47,43.15,3102
 United Kingdom,3,"['Universal medical benefits','Social insurance','Social assistance (cash benefits)']",3186859.73918502,81.4,82.99,79.79,68.5,4042.84,1043.78,8.07,11.45,16.1,44.93,58.28,3344
+United States of America,3,"['Social insurance','Mandatory private insurance','Social assistance (medical benefits)']",22996100.0,78.5,80.73,76.28,334.8,5552.6,5368.41,8.52,9.87,23.4,39.82,69.78,3782
 Uruguay,4,"['Social insurance (cash sickness and medical benefits)','Employment-related (parental benefits)','Employer-liability (paternity benefit)','Social assistance (medical benefits)']",59319.54763609,77.1,80.56,73.48,3.5,1538.37,771.47,6.23,6.92,22.0,38.44,54.0,3202
 Uzbekistan,2,"['Universal medical benefits','Social insurance (cash benefits)']",69238.90310617,73.01,75.21,70.76,34.4,173.84,243.95,2.34,2.59,17.8,54.24,29.19,3011
 Vietnam,1,['Social insurance system'],362637.52407096996,73.74,78.11,69.56,99.0,244.78,308.67,2.3,8.66,25.0,50.56,31.05,3025

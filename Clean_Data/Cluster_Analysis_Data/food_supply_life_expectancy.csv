@@ -1,4 +1,4 @@
-country,daily calories (2018)
+country,Daily caloric supply (2018)
 Albania,3360
 Algeria,3322
 Angola,2385
@@ -20,10 +20,10 @@ Botswana,2342
 Brazil,3301
 Bulgaria,2854
 Burkina Faso,2737
+Cabo Verde,2541
 Cambodia,2492
 Cameroon,2733
 Canada,3566
-Cabo Verde,2541
 Central African Republic,1786
 Chad,2115
 Chile,3029
@@ -31,6 +31,7 @@ China,3206
 Colombia,3114
 Congo,2285
 Costa Rica,3029
+Côte d'Ivoire,2778
 Croatia,3074
 Cuba,3344
 Cyprus,3019
@@ -115,6 +116,7 @@ Philippines,2662
 Poland,3537
 Portugal,3480
 Romania,3581
+Russian Federation,3345
 Rwanda,2188
 Saint Lucia,2618
 Saint Vincent and the Grenadines,2968
@@ -135,6 +137,7 @@ Sudan,2578
 Suriname,2698
 Sweden,3184
 Switzerland,3354
+Taiwan (China),2983
 Tajikistan,2109
 Tanzania,2373
 Thailand,2804
@@ -145,6 +148,7 @@ Turkmenistan,2830
 Uganda,1981
 Ukraine,3102
 United Kingdom,3344
+United States of America,3782
 Uruguay,3202
 Uzbekistan,3011
 Vanuatu,2607
