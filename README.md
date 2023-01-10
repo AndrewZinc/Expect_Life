@@ -1,26 +1,31 @@
-# Expect life - A project about Life Expectancies and Social Security Systems
+# Expect life - A Glimpse Look at Global Life Expectancies 
 
-## Project Overview
-This is a team project for data exploration, data analysis, and presentation of findings through a dashboard and visuals.
+## Project Overview and Purpose
+There are continuing discussions in American politics about the need for changes in the national healthcare system.  In elections, candidates have propose the adoption of Universal Healthcare or other similar large-scale changes.  This team project will explore what attributes has the largest impact on life expectancy for nations around the world, and its connection to the national social security system. Using data retrieve from nations around the world, the team seeks to explore whether the type of national healthcare system can affect the longevity of the population. Through data exploration, data analysis, and presentation of findings through dashboard and visuals, this project hopes to answer the following questions:  
 
-### Proposal
-**Topic**: Life expectancy for nations around the world, and connections to the national social security system.
-
-Questions to be answered by this project: 
-
-* Does the type of social security system impact life expectancy?
-* Does the amount of healthcare funding impact life expectancy?
+* Does the type of social security system have any impact life expectancy?
+* Does the amount of healthcare funding impact life expectancy at all?
 * Does a country's GDP impact life expectancy?
 * How big of a role do selected lifestyle factors (for example, alcohol consumption, smoking) play in life expectancy?
-* Other questions - TBD
 
-**Selection Rational**: There are continuing discussions in American politics about the need for changes in the national healthcare system.  Elections have seen candidates propose the adoption of Universal Healthcare or other similar large-scale changes.  This project seeks to explore whether the type of national healthcare system can affect the longevity of the population.  This will be explored with data from nations around the world.
+#### A Caveat:    
 
-After reviewing the available data, we saw that there was only healthcare system data available for less than half of the world's nations.  However, there is information available about almost all the world's social security systems.  The social security systems include healthcare as well as providing money for retirement and assistance for accidents and emergencies.
+During data exploration, there were only healthcare system data available for less than half of the world's nations.  However, there is suffice information available for majority of the world's social security systems.  The social security systems include healthcare as well as providing money for retirement and assistance for accidents and emergencies.
 
 This study focuses on the social security programs associated with health (Sickness and Maternity), but can include information about retirement systems, such as for North Macedonia, where the country does not indicate a separate social security system for health.
 
+## Deliverables:
+This project will produce five deliverables:
+* A cloud-based database
+* Machine learning models
+* An interactive dashboard
+* A team presentation of the project with a slide deck
 
+### Technology Used: 
+* Data Exploration: Python, Pandas, Jupyter Notebook
+* Database: MongoDB free tier - M0 cloud database
+* Machine Learning: Python. Scikit-Learn, NumPy
+* Presentation: Tableau, Plotly, Sweetviz, HVPlot
 
 #### Social Security System General Definitions
 Note:  In all cases, parenthetical benefits are defined as the ONLY benefits provided by the system.
@@ -34,13 +39,16 @@ Note:  In all cases, parenthetical benefits are defined as the ONLY benefits pro
 
 ## Input Data
 Input data was sourced from multiple locations:
-* Life Expectancy data was collected from the World Bank and the World Health Organization.
-* GDP data was collected from the World Bank.
+* Life Expectancy data was collected from the World Bank and the World Health Organization
+* GDP data was collected from the World Bank
+* Food data was collect from the United Nations' Food and Agriculture Organization 
 * Social Security system data was collected from ISSA (The International Social Security Association)
+* Mapping vectors and regional codes data were collected from Natural Earth and ISO (International Organization for Standardization)
+
 
 ### Input Data Issues
 
-We frequently encountered the following types of input data issues.
+The following types of input data issues frequently encountered: 
 * Identifying data sources and gathering the data
 * Country naming conventions
 * Data Organization
@@ -50,15 +58,15 @@ We frequently encountered the following types of input data issues.
 #### Identifying Data Sources - Gathering Data
 An initial sweep of data sources identified a Wikipedia article as a potential input.  After scraping the article for the country and healthcare system information, it was determined that the data volume was inadequate as it only covered about half of the global countries.
 
-After this, the Wikipedia references were used to identify potentially related data sources, which led to the use of the ISSA data.  This also required scraping the site to collect the relevant country and social security system descriptions and elements to enable this analysis.
+After this, the Wikipedia references were useful to identify other potentially related data sources, which led to the use of the ISSA data.  This also required scraping the website to collect the relevant country and social security system descriptions and elements to enable this analysis.
 
 #### Country Naming
 Country names were presented in different ways, depending on the information source.  Different naming conventions included a number of factors, such as, accented characters within the country name, for example `Côte d'Ivoire`, and the fullness of country names, such as, `Democratic Republic of the Congo` vs. `Congo, Democratic Republic`.
 
-Since the national social security system data was very complete, these names were used as the basis for standardizing the other data sets and country naming.  Note that some of the country names were shortened to their more commonly recognized form to facilitate mapping.  (For example, `Bolivia, Plurinational State of` was shortened to `Bolivia`.
+Since the national social security system data was vastly complete, these names were used as the baseline for standardizing the other data sets and country naming.  Note some of the country names were shortened to their more commonly recognized form to help facilitate mapping.  (For example, `Bolivia, Plurinational State of` was shortened to `Bolivia`.
 
 #### Data Organization
-Another issue that we frequently encountered was data that included general geographic regions, in addition to listing the individual countries.  Because the primary Life Expectancy data and social security system data was oriented towards individual countries, the regional data was processed out of the input data before bringing this information into the database and machine-learning models.
+Another issue frequently encountered was data included general geographic regions, in addition to listing the individual countries.  Because the primary Life Expectancy data and social security system data was oriented towards individual countries, the regional data was processed out of the input data before bringing this information into the database and machine-learning models.
 
 The image below shows a raw input data file that contains various geographical areas that have been highlighted for clarity.
 
@@ -81,22 +89,6 @@ However, for purposes of determining feature importance through supervised machi
 
 Also, for mapping within Tableau, this required --- @Vivek - TBD.
 
-
-
-
-### Team Structure and assignments:  
-The team has made the following decisions:
-* AZ to serve as the project manager
-* Team members will work in pairs.  Weeks 1&2: (Jay & Vivek), (AZ & David) - these teams may change in the latter half of the project.
-* Google sheet started to collect team availability.  We expect to meet at least every other day for a short stand-up, and have the option to extend or reconvene for more discussion/working sessions.
-* All team communication and collaboration held over email, Slack, and Google Meet or Hangouts. 
-
-### Technology: 
-* Data Exploration: Python/Pandas/Jupyter Notebook.
-* Database: MongoDB free tier - M0 cloud database
-* Machine Learning: Python & Scikit-Learn.
-* Presentation: Tableau
-
 ## Architecture and Design
 The high-level archictecture for this project is depicted below:
 
@@ -109,16 +101,8 @@ Below is a high-level diagram of the User Interface/Dashboard:
 ![High-Level UI/Dashboard](./Resources/HL-presentation-diagram.png)
 
 
-## Deliverables:
-This project will produce five deliverables:
-* A cloud-based database
-* Machine learning models
-* An interactive dashboard
-* A team presentation of the project with a slide deck
-* A team GitHub repository
-
-### Database: 
-* MongoDB Cloud Database - We decided this is the best option for the collection of data we are gathering and processing for this project. 
+### The Database: 
+* MongoDB Cloud Database - This was the best option for the collection of data gathering and processing for this project. Access to the database can be requested to the team where a temporary username and password can be provided. 
     * The collected project input data will not exceed the limitations of the minimal environment.  
 
     ![Database](./Resources/database_data1.png)
@@ -127,8 +111,7 @@ The data is organized into collections according to the intended use of the info
 
 ![Database Data](./Resources/database_data-detail.png)
 
-
-Below is a list of features we identified and will use for our analysis.
+Below is a list of features identified and will use for our analysis.
 - Age 
 - Gender
 - Population
@@ -136,7 +119,7 @@ Below is a list of features we identified and will use for our analysis.
 - GDP Per Capita (USD)
 - Tobacco use
 - Alcohol use
-- Daily Protein Supply
+- Daily Caloric and Protein Supply
 
 
 ### Machine Learning Model
@@ -183,7 +166,11 @@ Below is a link to the team slide deck:
 [Google Slides Presentation](https://docs.google.com/presentation/d/1GDFdQnD2gt4tPtTPS35o6d5ekbh1FRK6IDjy1pRzjho/edit?usp=sharing)
 
 
-
+### Team Dynamic and its members:  
+* Andrew Z. is project lead and owner of this repository 
+* Vivek G. maintains Tableau dashboard
+* David S. created supervised machine learning and visualization for presentation
+* Jacob V. assist in maintaining database, data collection, presentation slides and other areas as needed 
 
 
 ### Data Accreditation:
@@ -193,6 +180,7 @@ Below is a link to the team slide deck:
 * [Data Population from United Nations Population Fund](https://www.unfpa.org/data/world-population-dashboard)
 * [World Bank: GDP](https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?end=2021&start=1960)
 * [Additional World Development Indicators](https://databank.worldbank.org/source/world-development-indicators)
+* [GeoJson Map Vectors](https://geojson-maps.ash.ms/)
+* [Regional Codes](https://github.com/lukes/ISO-3166-Countries-with-Regional-Codes/blob/master/all/all.csv)
 * [ISSA - The International Social Security Association (ISSA)](https://ww1.issa.int/) 
-
 ISSA is the world’s leading international organization for social security institutions, government departments and agencies.  The ISSA compiles international country profiles with information about the scope and breadth of each country's social security program(s).  They provided the type of system employed by each of the countries in this study, as well as the definitions of the system types.  Links to the country profiles are included within the `country_profile_urls.csv` file.
