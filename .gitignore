@@ -3,6 +3,9 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+#.env
+Expect_Life_ENV.env
+
 # C extensions
 *.so
 
