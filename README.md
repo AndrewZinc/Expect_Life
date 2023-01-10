@@ -148,6 +148,7 @@ Additional experiements are underway to try different data combinations and diff
 ### Presentation
 
 Dashboards: Life Expectancy, GDP per Capita, Tobacco, Alcohol
+- Dashboard: https://public.tableau.com/app/profile/vivek.gurumoorthy7572/viz/World_Data_Trends/StatStory?publish=yes
 - Interactive maps visualizing characterizing global spread of analytical metrics
 - Filters allow comparisons of regions and sub-regions against one another as well as summary statistics of the selected countries in the metric of interest
 - Currently fleshing out Tableau story to depict differences between regions and change in data over time
