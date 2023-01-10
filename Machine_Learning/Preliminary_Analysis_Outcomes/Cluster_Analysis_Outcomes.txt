@@ -1,0 +1,15 @@
+List Form						Coded Form
+No PCA - Spectral Clustering - MinMaxScaler		PCA - KMeans - RobustScaler-IPCA
+No PCA - Gaussian Mixture Model - MinMaxScaler		PCA - Agglomerative Clustering – Ward - RobustScaler-IPCA
+PCA – Agglomerative Clustering - MMS			PCA - Birch - RobustScaler-IPCA
+PCA - Spectral Clustering - RobustScaler-IPCA		PCA - Gaussian Mixture Model - RobustScaler-KernelPCA
+
+Target models:
+Agglomerative Clustering (Ward)
+Birch
+Gaussian Mixture Model
+KMeans
+Spectral Clustering
+
+Normalization:
+MinMaxScaler, RobustScaler
