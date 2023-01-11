@@ -49,7 +49,6 @@ Input data was sourced from multiple locations:
 
 ### Input Data Issues
 
-
 The following types of input data issues were frequently encountered: 
 
 * Identifying data sources and gathering the data
@@ -178,6 +177,7 @@ Single year (latest data) Sweetviz report: [Single Year Sweetviz Report](./Machi
 
 Multi-year Sweetviz report: [Multi-year Sweetviz Report](./Machine_Learning/Final_Results/MultiYearReport.html)
 
+Additional information about the Clustering experiment processes is available within the [Clustering.md](./Machine_Learning/Clustering.md) file.
 
 ### Presentation
 
