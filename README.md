@@ -89,8 +89,6 @@ A full list of countries considered in the supervised machine learning model can
 #### Out-of-date Data
 Another challenge was associated with locating complete data sets across consistent years.  For purposes of the clustering analysis, the most current data was used for each dataset, as this would be unlikely to affect the models' ability to make connections across the features.
 
-However, for purposes of determining feature importance through supervised machine learning, this required ---@David - TBD.
-
 ## Architecture and Design
 The high-level archictecture for this project is depicted below:
 
