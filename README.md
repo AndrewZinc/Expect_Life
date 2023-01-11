@@ -1,7 +1,7 @@
 # Expect life - A Glimpse into Global Life Expectancies 
 
 ## Project Overview and Purpose
-There are continuing discussions in American politics about the need for changes in the national healthcare system.  In recent elections, candidates have proposed the adoption of universal healthcare and other similar large-scale changes to America's healthcare system.  This team project explores what attributes have the largest impact on life expectancy for nations around the world, and its connection to the national social security system. Using data retrieved from nations around the world, the team seeks to explore whether the type of national healthcare system affects the longevity of the population. Through data exploration, data analysis, and presentation of findings through dashboard and visuals, this project hopes to answer the following questions:  
+There are continuing discussions in American politics about the need for changes in the national healthcare system.  In recent elections, candidates have proposed the adoption of universal healthcare and other similar large-scale changes to America's healthcare system.  This team project explores what attributes have the largest impact on life expectancy worldWwide, and its connection to the national social security system. Using data retrieved from nations around the world, the team seeks to explore whether the type of national healthcare system affects the longevity of the population. Through data exploration, data analysis, and presentation of findings through dashboard and visuals, the team's analysis hopes to answer the following questions:  
 
 * Does the type of social security system have any impact on life expectancy?
 * Does the amount of healthcare funding impact life expectancy at all?
@@ -16,18 +16,18 @@ During data exploration, there was only healthcare system data available for les
 This study focuses on the social security programs associated with health (Sickness and Maternity), but can include information about retirement systems, such as for North Macedonia, where the country does not indicate a separate social security system for health.
 
 ## Deliverables:
-This project will produce five deliverables:
+There are five deliverables in this project:
 * A cloud-based database
 * Two machine learning models
 * An interactive dashboard
-* A team presentation of the project with a slide deck
-* This README file
+* A slide deck presentation of the project
+* This repository and README file
 
 ### Technology Used: 
 * Data Exploration: Python, Pandas, Jupyter Notebook
 * Database: MongoDB free tier - M0 cloud database
 * Machine Learning: Python, Scikit-Learn, NumPy
-* Presentation: Tableau, Plotly, Sweetviz, HVPlot
+* Presentation: Tableau, Plotly, Sweetviz, HVPlot, Seaborn
 
 Note: `requirements.txt` is provided to enable recreation of the analysis environment.
 
@@ -60,7 +60,7 @@ The following types of input data issues were frequently encountered:
 #### Identifying Data Sources - Gathering Data
 An initial sweep of data sources identified a Wikipedia article as a potential input.  After scraping the article for the country and healthcare system information, it was determined that the data volume was inadequate as it only covered about half of countries.
 
-After this, the Wikipedia references were useful for identifying other potentially related data sources, which led to the use of the ISSA data.  This also required scraping the website to collect the relevant country and social security system descriptions to enable this analysis.
+However, the Wikipedia references were useful for identifying other potential related data sources, which led to the use of the ISSA data.  This also required scraping the ISSA website to collect the relevant country and social security system descriptions to enable this analysis.
 
 
 #### Country Naming
@@ -102,13 +102,13 @@ Below is a high-level diagram of the User Interface/Dashboard:
 ![High-Level UI/Dashboard](./Resources/HL-presentation-diagram.png)
 
 
-### The Database: 
+### The Database:  [MongoDB Cloud Database](https://www.mongodb.com/)
 
-* MongoDB Cloud Database - This was the best option for the collection of data gathering and processing for this project. Access to the database can be requested from the project team. A temporary username and password can be provided to the interested party. 
+This was the best option for the collection of data gathering and processing for this project.Using non-relational databases allows for faster performance because the queries made doesn't have to view several tables in order to answer the questions. It was ideal for storing input data that may frequently changed overtime in the future. Access to the database can be requested from the project team. A temporary username and password can be provided to the interested party. Once access to the database has been granted, instructions to connect to the database can be found at [Resources File](https://github.com/AndrewZinc/Expect_Life/blob/912b5b748bbc4e39e79a6b4f3d12480afd482b59/Resources/MongoDB_Connection_instructions_and_notes.txt). Note modification to the code may be needed depending on the type of operating system user has. 
 
-    * The collected project input data will not exceed the limitations of the minimal environment.  
+The collected project input data will not exceed the limitations of the minimal environment.  
 
-    ![Database](./Resources/database_data1.png)
+![Database Data](./Resources/database_data1.png)
 
 The data is organized into collections according to the intended use of the information.
 
@@ -179,12 +179,12 @@ Multi-year Sweetviz report: [Multi-year Sweetviz Report](./Machine_Learning/Fina
 
 Additional information about the Clustering experiment processes is available within the [Clustering.md](./Machine_Learning/Clustering.md) file.
 
-### Presentation
+## Presentation
 
-Dashboards: Life Expectancy, GDP per Capita, Tobacco, Alcohol
-- Dashboard: https://public.tableau.com/app/profile/vivek.gurumoorthy7572/viz/World_Data_Trends/StatStory?publish=yes
-- Interactive maps visualizing characterizing global spread of analytical metrics
-- Filters allow comparisons of regions and sub-regions against one another as well as summary statistics of the selected countries in the metric of interest
+### Dashboards: Life Expectancy, GDP per Capita, Tobacco, Alcohol
+
+To acccess the interactive maps visualizing characterizing global spread of analytical metrics, please visit the [Dashboard](https://public.tableau.com/app/profile/vivek.gurumoorthy7572/viz/World_Data_Trends/StatStory?publish=yes). Below are examples of how the filters allow comparisons of regions and sub-regions against one another as well as summary statistics of the selected countries in the metric of interest. 
+
 <img width="1464" alt="Screen Shot 2023-01-04 at 8 43 41 AM" src="https://user-images.githubusercontent.com/108832056/210568884-9947e540-5c3a-4492-b503-fb83b713657b.png">
 <img width="1464" alt="Screen Shot 2023-01-04 at 8 44 16 AM" src="https://user-images.githubusercontent.com/108832056/210568944-cd4dcef9-bd48-450d-a4b2-b95465cc34be.png">
 <img width="1470" alt="Screen Shot 2023-01-04 at 8 42 05 AM" src="https://user-images.githubusercontent.com/108832056/210569296-08af29da-0f9f-4b61-b06a-7f451fdefef7.png">
@@ -195,9 +195,7 @@ Dashboards: Life Expectancy, GDP per Capita, Tobacco, Alcohol
 
 
 ### Google Slide Presentation
-Below is a link to the team slide deck:
-
-[Google Slides Presentation](https://docs.google.com/presentation/d/1GDFdQnD2gt4tPtTPS35o6d5ekbh1FRK6IDjy1pRzjho/edit?usp=sharing)
+Link to the team slide deck: [Google Slides Presentation](https://docs.google.com/presentation/d/1GDFdQnD2gt4tPtTPS35o6d5ekbh1FRK6IDjy1pRzjho/edit?usp=sharing)
 
 
 ### Team Dynamic and its members:  
@@ -206,6 +204,8 @@ Below is a link to the team slide deck:
 * David S. created supervised machine learning and visualization for presentation
 * Jacob V. assist in maintaining database, data collection, presentation slides and other areas as needed 
 
+###Future Work
+Moving forwards with this work, we would like to coordinate with local governments and collect more data from them to help identify underlying features that may have impact on life expectancy.  
 
 ### Data Accreditation:
 
@@ -214,6 +214,7 @@ Below is a link to the team slide deck:
 * [Data Population from United Nations Population Fund](https://www.unfpa.org/data/world-population-dashboard)
 * [World Bank: GDP](https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?end=2021&start=1960)
 * [Additional World Development Indicators](https://databank.worldbank.org/source/world-development-indicators)
+* [United Nation's Food and Agriculture Organization](https://www.fao.org/faostat/en/#data/FS)
 * [GeoJson Map Vectors](https://geojson-maps.ash.ms/)
 * [Regional Codes](https://github.com/lukes/ISO-3166-Countries-with-Regional-Codes/blob/master/all/all.csv)
 * [ISSA - The International Social Security Association (ISSA)](https://ww1.issa.int/) 
