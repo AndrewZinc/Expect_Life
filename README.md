@@ -49,7 +49,6 @@ Input data was sourced from multiple locations:
 
 ### Input Data Issues
 
-
 The following types of input data issues were frequently encountered: 
 
 * Identifying data sources and gathering the data
@@ -88,8 +87,6 @@ A full list of countries considered in the supervised machine learning model can
 
 #### Out-of-date Data
 Another challenge was associated with locating complete data sets across consistent years.  For purposes of the clustering analysis, the most current data was used for each dataset, as this would be unlikely to affect the models' ability to make connections across the features.
-
-However, for purposes of determining feature importance through supervised machine learning, this required ---@David - TBD.
 
 ## Architecture and Design
 The high-level archictecture for this project is depicted below:
@@ -180,6 +177,7 @@ Single year (latest data) Sweetviz report: [Single Year Sweetviz Report](./Machi
 
 Multi-year Sweetviz report: [Multi-year Sweetviz Report](./Machine_Learning/Final_Results/MultiYearReport.html)
 
+Additional information about the Clustering experiment processes is available within the [Clustering.md](./Machine_Learning/Clustering.md) file.
 
 ### Presentation
 
