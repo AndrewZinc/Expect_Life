@@ -104,7 +104,7 @@ Below is a high-level diagram of the User Interface/Dashboard:
 
 ### The Database:  [MongoDB Cloud Database](https://www.mongodb.com/)
 
-This was the best option for the collection of data gathering and processing for this project.Using non-relational databases allows for faster performance because the queries made doesn't have to view several tables in order to answer the questions. It was ideal for storing input data that may frequently changed overtime in the future. Access to the database can be requested from the project team. A temporary username and password can be provided to the interested party. 
+This was the best option for the collection of data gathering and processing for this project.Using non-relational databases allows for faster performance because the queries made doesn't have to view several tables in order to answer the questions. It was ideal for storing input data that may frequently changed overtime in the future. Access to the database can be requested from the project team. A temporary username and password can be provided to the interested party. Once access to the database has been granted, instructions to connect to the database can be found at [Resources File](https://github.com/AndrewZinc/Expect_Life/blob/912b5b748bbc4e39e79a6b4f3d12480afd482b59/Resources/MongoDB_Connection_instructions_and_notes.txt). Note modification to the code may be needed depending on the type of operating system user has. 
 
 The collected project input data will not exceed the limitations of the minimal environment.  
 
