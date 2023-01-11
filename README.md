@@ -1,7 +1,7 @@
 # Expect life - A Glimpse into Global Life Expectancies 
 
 ## Project Overview and Purpose
-There are continuing discussions in American politics about the need for changes in the national healthcare system.  In recent elections, candidates have proposed the adoption of universal healthcare and other similar large-scale changes to America's healthcare system.  This team project explores what attributes have the largest impact on life expectancy worldWwide, and its connection to the national social security system. Using data retrieved from nations around the world, the team seeks to explore whether the type of national healthcare system affects the longevity of the population. Through data exploration, data analysis, and presentation of findings through dashboard and visuals, the team's analysis hopes to answer the following questions:  
+There are continuing discussions in American politics about the need for changes in the national healthcare system.  In recent elections, candidates have proposed the adoption of universal healthcare and other similar large-scale changes to America's healthcare system.  This team project explores what attributes have the largest impact on life expectancy worldwide, and its connection to the national social security system. Using data retrieved from nations around the world, the team seeks to explore whether the type of national healthcare system affects the longevity of the population. Through data exploration, data analysis, and presentation of findings through dashboard and visuals, the team's analysis hopes to answer the following questions:  
 
 * Does the type of social security system have any impact on life expectancy?
 * Does the amount of healthcare funding impact life expectancy at all?
@@ -103,7 +103,9 @@ Below is a high-level diagram of the User Interface/Dashboard:
 
 
 ### The Database:  [MongoDB Cloud Database](https://www.mongodb.com/)
-This was the best option for the collection of data gathering and processing for this project.Using non-relational databases allows for faster performance because the queries made doesn't have to view several tables in order to answer the questions. It was ideal for storing input data that may frequently changed overtime in the future. Access to the database can be requested from the project team. A temporary username and password can be provided to the interested party. Once access to the database has been granted, instructions to connect to the database can be found at [Resources File](https://github.com/AndrewZinc/Expect_Life/blob/912b5b748bbc4e39e79a6b4f3d12480afd482b59/Resources/MongoDB_Connection_instructions_and_notes.txt). Note modification to the code may be needed depending on the type of operating system user has. 
+This was the best option for the gathering and processing of data for this project. Using a non-relational database allows for faster performance because the queries made don't have to view several tables to answer the questions. It was ideal for storing input data that may frequently change over time. Access to the database can be requested from the project team. A temporary username and password can be provided to the interested party. Once access to the database has been granted, instructions to connect to the database can be found at [Resources File](https://github.com/AndrewZinc/Expect_Life/blob/912b5b748bbc4e39e79a6b4f3d12480afd482b59/Resources/MongoDB_Connection_instructions_and_notes.txt). 
+
+Note: modification to the code may be needed depending on the type of operating system. 
 
 The collected project input data will not exceed the limitations of the minimal environment.  
 
