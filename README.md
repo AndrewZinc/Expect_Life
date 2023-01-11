@@ -1,12 +1,13 @@
-# Expect life - A Glimpse Look at Global Life Expectancies 
+# Expect life - A Glimpse into Global Life Expectancies 
 
 ## Project Overview and Purpose
 There are continuing discussions in American politics about the need for changes in the national healthcare system.  In recent elections, candidates have proposed the adoption of universal healthcare and other similar large-scale changes to America's healthcare system.  This team project explores what attributes have the largest impact on life expectancy for nations around the world, and its connection to the national social security system. Using data retrieved from nations around the world, the team seeks to explore whether the type of national healthcare system affects the longevity of the population. Through data exploration, data analysis, and presentation of findings through dashboard and visuals, this project hopes to answer the following questions:  
 
 * Does the type of social security system have any impact on life expectancy?
-* Does the amount of healthcare funding impact life expectancy?
+* Does the amount of healthcare funding impact life expectancy at all?
 * Does a country's GDP impact life expectancy?
-* How big of a role do selected lifestyle factors (for example, alcohol consumption and smoking) play in life expectancy?
+* Do selected lifestyle factors (for example, alcohol consumption, smoking) play a role in life expectancy?
+
 
 #### A Caveat:    
 
@@ -20,12 +21,15 @@ This project will produce five deliverables:
 * Two machine learning models
 * An interactive dashboard
 * A team presentation of the project with a slide deck
+* This README file
 
 ### Technology Used: 
 * Data Exploration: Python, Pandas, Jupyter Notebook
 * Database: MongoDB free tier - M0 cloud database
 * Machine Learning: Python, Scikit-Learn, NumPy
 * Presentation: Tableau, Plotly, Sweetviz, HVPlot
+
+Note: `requirements.txt` is provided to enable recreation of the analysis environment.
 
 #### Social Security System General Definitions
 Note:  In all cases, parenthetical benefits are defined as the ONLY benefits provided by the system.
@@ -35,8 +39,6 @@ Note:  In all cases, parenthetical benefits are defined as the ONLY benefits pro
 * Employment-related: Employed, self-employed, and persons with limited income may receive specific benefits.
 * Employer-Liability: Employed persons may receive specific benefits.
 
-
-
 ## Input Data
 Input data was sourced from multiple locations:
 * Life Expectancy data was collected from the World Bank and the World Health Organization
@@ -45,10 +47,11 @@ Input data was sourced from multiple locations:
 * Social Security system data was collected from ISSA (International Social Security Association)
 * Mapping vectors and regional codes data were collected from Natural Earth and ISO (International Organization for Standardization)
 
-
 ### Input Data Issues
 
+
 The following types of input data issues were frequently encountered: 
+
 * Identifying data sources and gathering the data
 * Country naming conventions
 * Data Organization
@@ -58,15 +61,15 @@ The following types of input data issues were frequently encountered:
 #### Identifying Data Sources - Gathering Data
 An initial sweep of data sources identified a Wikipedia article as a potential input.  After scraping the article for the country and healthcare system information, it was determined that the data volume was inadequate as it only covered about half of countries.
 
-After this, Wikipedia references were used to identify other potentially related data sources, which led to the use of the ISSA data.  This data gathering required scraping the ISSA website to collect the relevant country and social security system descriptions and elements to enable this analysis.
+After this, the Wikipedia references were useful for identifying other potentially related data sources, which led to the use of the ISSA data.  This also required scraping the website to collect the relevant country and social security system descriptions to enable this analysis.
+
 
 #### Country Naming
 Country names were presented in different ways, depending on the information source.  Different naming conventions included a number of factors, such as, accented characters within the country name, for example `Côte d'Ivoire`, and the fullness of country names, such as, `Democratic Republic of the Congo` vs. `Congo, Democratic Republic`.
-
-Since the national social security system data was largely complete, these names were used as the baseline for our standardization of the other data sets.  Some of the country names were shortened to their more commonly recognized form to help facilitate mapping.  (For example, `Bolivia, Plurinational State of` was shortened to `Bolivia`.
+Since the national social security system data was vastly complete, these country names were used as the baseline for standardizing the country naming within other data sets and aligning the content included in those datasets.  Note some of the country names were shortened to their more commonly recognized form to help facilitate mapping.  (For example, `Bolivia, Plurinational State of` was shortened to `Bolivia`.
 
 #### Data Organization
-Another issue we frequently encountered was that data included general geographic regions, in addition to listing the individual countries.  Because the primary Life expectancy data and social security system data was oriented towards individual countries, regional data was processed out of the input data before bringing this information into the database and machine-learning models. Further, the data also often contained various subnational entities such as Puerto Rico, Hong Kong, and the Isle of Man. Data on subnational entities was also processed out of the input data before bringing this information into the database and machine-learning models.
+Another issue frequently encountered was data that included general geographic regions, in addition to listing the individual countries.  Because the primary Life Expectancy data and social security system data was oriented towards individual countries, the regional data was processed out of the input data before bringing this information into the database and machine-learning models.
 
 The image below shows a raw input data file that contains various geographical areas that have been highlighted for clarity.
 
@@ -94,14 +97,18 @@ The high-level archictecture for this project is depicted below:
 ![High-Level Architecture](./Resources/hl-architecture.png)
 
 #### Architecture and Design Description
+
 Input data was loaded into the MongoDB database in CSV format using MongoDB Compass. The Dashboard is presented to the user via Tableau Public.  Tableau may connect to the MongoDB, or be provided data in CSV format.  The Machine Learning models pull data from the MongoDB cloud database in order to generate results.
+
 
 Below is a high-level diagram of the User Interface/Dashboard:
 ![High-Level UI/Dashboard](./Resources/HL-presentation-diagram.png)
 
 
 ### The Database: 
-* MongoDB Cloud Database - This was the best option for data collection and processing for this project. Access to the database can be requested from the team. A temporary username and password can be provided. 
+
+* MongoDB Cloud Database - This was the best option for the collection of data gathering and processing for this project. Access to the database can be requested from the project team. A temporary username and password can be provided to the interested party. 
+
     * The collected project input data will not exceed the limitations of the minimal environment.  
 
     ![Database](./Resources/database_data1.png)
@@ -110,11 +117,13 @@ The data is organized into collections according to the intended use of the info
 
 ![Database Data](./Resources/database_data-detail.png)
 
-Below is a list of features identified and used for our analysis.
-- Age 
-- Gender
+
+Below is a list of features identified and will use for our analysis.
+- Social Security System information
+- Life Expectancy
 - Population
-- GDP (USD)
+- Government Health Expenditure Per Capita
+- Private Health Expenditure Per Capita
 - GDP Per Capita (USD)
 - Government Healthcare Expenditure per Capita
 - Private Healthcare Expenditure per Capita
@@ -122,31 +131,60 @@ Below is a list of features identified and used for our analysis.
 - Alcohol Use
 - Daily Caloric and Protein Supply
 
+### Supervised Machine Learning Model
+* Machine Learning Model - will evaluate the data features and provide information about the feature importance.
 
-### Machine Learning Models
-* Machine Learning Model - evaluatea the data features and provide information about the feature importance, as well as clustering of features that contribute to Human Longevity.
-* Currently, the machine learning model is using PCA for feature reduction, and KMeans for clustering analysis
+### Clustering Machine Learning Model
+The Clustering Analysis seeks to confirm the importance of the features that are identified by the Supervised Machine Learning model.
 
-Because the data under investigation is based on individual countries, the data set is wide (523 feature columns).  To help generate graphable results, Principal Component Analysis (PCA) was used to reduce the feature set down to three primary components.
+Because the data under investigation is based on individual countries, the data set can become wide as the categorical features are encoded into numerical values.  To help generate graphable results, Principal Component Analysis (PCA) was used to reduce the feature set down to three primary components.
 
 ![Principal Component Analysis](./Resources/machine_learning-clustering-attempt_1-PCA.png)
 
-An Elbow Curve diagram was then generated to help determine the likely number of clusters.
+Silhouette scores and plots were then generated to help determine the likely number of clusters.
 
-![Elbow Curve](./Resources/machine_learning-clustering-attempt_1-Elbow_Curve.png)
+![Silhouette Analysis](./Resources/machine_learning-clustering_sihlouette_analysis.png)
 
-Based on this diagram, n_clusters was set to 3, and then the clusters were predicted.
+Using the best combination of Silhouette score and plot, the target number of clusters is selected and presented to the clustering model for the analysis.
 
-![KMeans Clusters](./Resources/machine_learning-clustering-attempt_1.png)
+## Analysis Phase
 
-Because the data was abstracted through the use of PCA, it is difficult to interpret the clustering results.
+### Clustering Analysis
+A key factor in the clustering analysis was the structure of the Social Security System (SSS) info that was presented to the Machine Learning Models.  The SSS data was reviewed and the terminology used to identify the system components was standardized.  The data was then prepared in a simple list format: Country - [SSS list].  After this a `coded` version of the information was prepared, where the SSS components were separated and placed into columns according to the number of components.
 
-![Clustering Interpretation](./Resources/cluster-interpretation.png)
+An initial review of popular clustering models was perfomed, and several Jupyter notebooks were created to generate data for side-by-side comparison of the model output.  The analysis was performed using different Primary Component Analysis methods (PCA, IPCA, and KernelIPCA) as well as different scalers (StandardScaler, MinMaxScaler, and RobustScaler).
+
+The models examined were:
+* KMeans
+* Agglomerative Clustering (linkage=complete)
+* Agglomerative Clustering (linkage=ward)
+* BIRCH
+* DBSCAN
+* Mean Shift
+* OPTICS
+* Spectral Clustering
+* Gaussian Mixture Model
+
+The results of this preliminary analysis lead to focused examination of:
+* Agglomerative Clustering (linkage=ward)
+* BIRCH
+* Gaussian Mixture Model
+* KMeans
+* Spectral Clustering
+
+This focused analysis was performed with standard PCA and two different scalers (MinMaxScaler and RobustScaler).  From these new results, MinMaxScaler was selected for final analysis with the BIRCH model.
+
+During the final analysis, the input data was synchronized with the Supervised machine learning model input, both for volume of data and its contents.  This final analysis was performed through two different Jupyter notebooks and after the analysis was completed, a Sweetviz report was generated to view details of the features and the associations within them.
+
+Single year (latest data) Sweetviz report: [Single Year Sweetviz Report](./Machine_Learning/Final_Results/Final_Report.html)
+
+Multi-year Sweetviz report: [Multi-year Sweetviz Report](./Machine_Learning/Final_Results/MultiYearReport.html)
 
 
 ### Presentation
 
 Dashboards: Life Expectancy, GDP per Capita, Tobacco, Alcohol
+- Dashboard: https://public.tableau.com/app/profile/vivek.gurumoorthy7572/viz/World_Data_Trends/StatStory?publish=yes
 - Interactive maps visualizing characterizing global spread of analytical metrics
 - Filters allow comparisons of regions and sub-regions against one another as well as summary statistics of the selected countries in the metric of interest
 <img width="1464" alt="Screen Shot 2023-01-04 at 8 43 41 AM" src="https://user-images.githubusercontent.com/108832056/210568884-9947e540-5c3a-4492-b503-fb83b713657b.png">
@@ -181,4 +219,4 @@ Below is a link to the team slide deck:
 * [GeoJson Map Vectors](https://geojson-maps.ash.ms/)
 * [Regional Codes](https://github.com/lukes/ISO-3166-Countries-with-Regional-Codes/blob/master/all/all.csv)
 * [ISSA - The International Social Security Association (ISSA)](https://ww1.issa.int/) 
-ISSA is the world’s leading international organization for social security institutions, government departments and agencies.  The ISSA compiles international country profiles with information about the scope and breadth of each country's social security program(s).  They provided the type of system employed by each of the countries in this study, as well as the definitions of the system types.  Links to the country profiles are included within the `country_profile_urls.csv` file.
+ISSA is the world’s leading international organization for social security institutions, government departments and agencies.  The ISSA compiles international country profiles with information about the scope and breadth of each country's social security program(s).  They provided the type of system employed by each of the countries in this study, as well as the definitions of the system types.  Links to the country profiles are included within the [Country Profile Urls](./Clean_Data/master_country_list/country_profile_urls.csv) file.
