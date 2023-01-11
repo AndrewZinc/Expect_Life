@@ -13,7 +13,7 @@ There are continuing discussions in American politics about the need for changes
 
 During data exploration, there was only healthcare system data available for less than half of the world's nations.  However, there is sufficient information available for the majority of the world's social security systems.  These social security systems include healthcare as well as providing money for retirement and assistance for accidents and emergencies.
 
-This study focuses on the social security programs associated with health (Sickness and Maternity), but can include information about retirement systems, such as for North Macedonia, where the country does not indicate a separate social security system for health.
+This study focuses on the social security programs associated with health (Sickness and Maternity) but can include information about retirement systems, such as for North Macedonia, where the country does not indicate a separate social security system for health.
 
 ## Deliverables:
 This project will produce five deliverables:
@@ -58,17 +58,17 @@ The following types of input data issues were frequently encountered:
 * Out-of-date data
 
 #### Identifying Data Sources - Gathering Data
-An initial sweep of data sources identified a Wikipedia article as a potential input.  After scraping the article for the country and healthcare system information, it was determined that the data volume was inadequate as it only covered about half of countries.
+An initial sweep of data sources identified a Wikipedia article as a potential input.  After scraping the article for the country and healthcare system information, it was determined that the data volume was inadequate as it only covered about half of the countries worldwide.
 
 After this, the Wikipedia references were useful for identifying other potentially related data sources, which led to the use of the ISSA data.  This also required scraping the website to collect the relevant country and social security system descriptions to enable this analysis.
 
 
 #### Country Naming
-Country names were presented in different ways, depending on the information source.  Different naming conventions included a number of factors, such as, accented characters within the country name, for example `Côte d'Ivoire`, and the fullness of country names, such as, `Democratic Republic of the Congo` vs. `Congo, Democratic Republic`.
+Country names were presented in different ways, depending on the information source.  Different naming conventions included several factors, such as accented characters within the country name, for example, `Côte d'Ivoire`, and the fullness of country names, such as, `Democratic Republic of the Congo` vs. `Congo, Democratic Republic`.
 Since the national social security system data was vastly complete, these country names were used as the baseline for standardizing the country naming within other data sets and aligning the content included in those datasets.  Note some of the country names were shortened to their more commonly recognized form to help facilitate mapping.  (For example, `Bolivia, Plurinational State of` was shortened to `Bolivia`.
 
 #### Data Organization
-Another issue frequently encountered was data that included general geographic regions, in addition to listing the individual countries.  Because the primary Life Expectancy data and social security system data was oriented towards individual countries, the regional data was processed out of the input data before bringing this information into the database and machine-learning models.
+Another issue frequently encountered was data that included general geographic regions, in addition to listing the individual countries.  Because the primary Life Expectancy data and social security system data were oriented toward individual countries, the regional data was processed out of the input data before bringing this information into the database and machine-learning models.
 
 The image below shows a raw input data file that contains various geographical areas that have been highlighted for clarity.
 
@@ -81,7 +81,7 @@ The data sets were frequently missing data values.  Sometimes for specific metri
 
 This presented a large challenge, as the process of combining the various datasets would ultimately reduce the represented countries down to those that had data across all the features.  The Alcohol & Tobacco usage, the food supply, and the daily protein intake were the three most restrictive datasets.
 
-Within the GDP data file, the following countries were dropped because of missing information: British Virgin Islands, Jersey, Slovakia, Taiwan (China), and Venezuela.
+Within the GDP data file, the following countries were dropped because of missing information: the British Virgin Islands, Jersey, Slovakia, Taiwan (China), and Venezuela.
 A full list of countries considered in the supervised machine learning model can be found in the Resources folder (country_list.txt)
 
 
@@ -104,11 +104,7 @@ Below is a high-level diagram of the User Interface/Dashboard:
 
 ### The Database: 
 
-* MongoDB Cloud Database - This was the best option for the collection of data gathering and processing for this project. Access to the database can be requested from the project team. A temporary username and password can be provided to the interested party. 
-
-    * The collected project input data will not exceed the limitations of the minimal environment.  
-
-    ![Database](./Resources/database_data1.png)
+* MongoDB Cloud Database - This was the best option for gathering and processing data for this project. Access to the database can be requested from the project team. A temporary username and password can be provided to the interested party. 
 
 The data is organized into collections according to the intended use of the information.
 
@@ -147,7 +143,7 @@ Using the best combination of Silhouette score and plot, the target number of cl
 ## Analysis Phase
 
 ### Clustering Analysis
-A key factor in the clustering analysis was the structure of the Social Security System (SSS) info that was presented to the Machine Learning Models.  The SSS data was reviewed and the terminology used to identify the system components was standardized.  The data was then prepared in a simple list format: Country - [SSS list].  After this a `coded` version of the information was prepared, where the SSS components were separated and placed into columns according to the number of components.
+A key factor in the clustering analysis was the structure of the Social Security System (SSS) info that was presented to the Machine Learning Models.  The SSS data was reviewed and the terminology used to identify the system components were standardized.  The data was then prepared in a simple list format: Country - [SSS list].  After this a `coded` version of the information was prepared, where the SSS components were separated and placed into columns according to the number of components.
 
 An initial review of popular clustering models was perfomed, and several Jupyter notebooks were created to generate data for side-by-side comparison of the model output.  The analysis was performed using different Primary Component Analysis methods (PCA, IPCA, and KernelIPCA) as well as different scalers (StandardScaler, MinMaxScaler, and RobustScaler).
 
@@ -171,7 +167,7 @@ The results of this preliminary analysis lead to focused examination of:
 
 This focused analysis was performed with standard PCA and two different scalers (MinMaxScaler and RobustScaler).  From these new results, MinMaxScaler was selected for final analysis with the BIRCH model.
 
-During the final analysis, the input data was synchronized with the Supervised machine learning model input, both for volume of data and its contents.  This final analysis was performed through two different Jupyter notebooks and after the analysis was completed, a Sweetviz report was generated to view details of the features and the associations within them.
+During the final analysis, the input data was synchronized with the Supervised machine learning model input, both for the volume of data and its contents.  This final analysis was performed through two different Jupyter notebooks and after the analysis was completed, a Sweetviz report was generated to view details of the features and the associations within them.
 
 Single year (latest data) Sweetviz report: [Single Year Sweetviz Report](./Machine_Learning/Final_Results/Final_Report.html)
 
