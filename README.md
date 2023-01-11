@@ -205,7 +205,8 @@ Link to the team slide deck: [Google Slides Presentation](https://docs.google.co
 * David S. created supervised machine learning and visualization for presentation
 * Jacob V. assist in maintaining database, data collection, presentation slides and other areas as needed 
 
-###Future Work
+### Future Work
+
 Moving forwards with this work, we would like to coordinate with local governments and collect more data from them to help identify underlying features that may have impact on life expectancy.  
 
 ### Data Accreditation:
